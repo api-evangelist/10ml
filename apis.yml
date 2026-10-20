@@ -1,7 +1,6 @@
 aid: 10ml
 name: 10ML Fragrance Index API
-description: '10ML Fragrance Index API is a company surfaced via the API Evangelist harvest backlog (source:
-  new-submission) and added to the network as a stub for full-pipeline profiling.'
+description: '10ML Fragrance Index API provides free, no‑auth access to a curated fragrance knowledge base covering over 5,400 perfumes, 249 houses, and detailed note pyramids, accords, families, and usage guides. The service is hosted at mcp.10ml.com and draws its data from the 10ML retail site, offering read‑only tools for searching, comparing, and retrieving perfume information in multiple languages, aimed at AI assistants and developers.'
 url: https://raw.githubusercontent.com/api-evangelist/10ml/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:new-submission
@@ -11,7 +10,11 @@ specificationVersion: '0.20'
 created: '2026-10-20'
 modified: '2026-10-20'
 tags:
-- Company
+- Perfume
+- Fragrance
+- API
+- Free
+- NoAuth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,10 +22,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/10ml-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/10ml-domain-security.yml
 - type: Website
-  url: https://mcp.10ml.com
+  url: https://10ml.com
 - type: Documentation
   url: https://mcp.10ml.com/openapi.json
+- type: APIReference
+  url: https://mcp.10ml.com/openapi.json
+- type: TermsOfService
+  url: https://mcp.10ml.com/terms
+- type: PrivacyPolicy
+  url: https://mcp.10ml.com/privacy
+- type: Blog
+  url: https://10ml.com/guides
+- type: GettingStarted
+  url: https://10ml.com/guides/perfume-gift-guide
 x-submission-notes: Free no-auth perfume knowledge API (notes, accords, houses, similar scents); from
   10ml.com retailer
 x-submission-probe: mcp.10ml.com 200 (Perfume MCP Server page); openapi.json 200 OpenAPI 3.1.0 v2.1.0
