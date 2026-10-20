@@ -1,0 +1,31 @@
+aid: 10ml
+name: 10ML Fragrance Index API
+description: '10ML Fragrance Index API is a company surfaced via the API Evangelist harvest backlog (source:
+  new-submission) and added to the network as a stub for full-pipeline profiling.'
+url: https://raw.githubusercontent.com/api-evangelist/10ml/refs/heads/main/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-10-20'
+modified: '2026-10-20'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://mcp.10ml.com
+- type: Documentation
+  url: https://mcp.10ml.com/openapi.json
+x-submission-notes: Free no-auth perfume knowledge API (notes, accords, houses, similar scents); from
+  10ml.com retailer
+x-submission-probe: mcp.10ml.com 200 (Perfume MCP Server page); openapi.json 200 OpenAPI 3.1.0 v2.1.0
+  42KB; llms.txt 200; 10ml.com 200 retailer; soft-404 clean (JSON 404); MCP endpoint /mcp not POSTed (not
+  named by submitter)
+x-submitted-by: contact+apisio@10ml.com (submission, 2026-10-19)
