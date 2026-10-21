@@ -1,0 +1,18 @@
+generated: '2026-10-20'
+method: probed
+source: https://mcp.10ml.com/privacy
+signals:
+  - signal: subprocessors
+    evidence:
+      - source: https://mcp.10ml.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "Our hosting provider, Cloudflare, keeps standard short-lived operational logs (for example the time of a request, its address and any error) so that the service stays secure and reliable."
+        note: Cloudflare acts as a subprocessors handling operational logs.
+  - signal: data_retention
+    evidence:
+      - source: https://mcp.10ml.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "The service keeps no record of who asked and no history of what was asked."
+        note: No data is retained beyond short-lived logs.

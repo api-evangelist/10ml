@@ -1,0 +1,10 @@
+generated: '2026-10-20'
+method: probed
+source: https://mcp.10ml.com
+deployment:
+  mode: remote
+  endpoint: https://mcp.10ml.com/mcp
+  install: "npx -y @10ml/perfume-finder-mcp"
+  package: "https://www.npmjs.com/package/@10ml/perfume-finder-mcp"
+  auth: none
+  verified: probed

@@ -1,27 +1,73 @@
 aid: 10ml
+
 name: 10ML Fragrance Index API
-description: '10ML Fragrance Index API provides free, no‑auth access to a curated fragrance knowledge base covering over 5,400 perfumes, 249 houses, and detailed note pyramids, accords, families, and usage guides. The service is hosted at mcp.10ml.com and draws its data from the 10ML retail site, offering read‑only tools for searching, comparing, and retrieving perfume information in multiple languages, aimed at AI assistants and developers.'
+
+image: https://10ml.com/og/pages/en/home.png
+
+description: 10ML Fragrance Index API provides free, no‑auth access to a curated fragrance knowledge base covering over 5,400 perfumes, 249 houses,
+  and detailed note pyramids, accords, families, and usage guides. The service is hosted at mcp.10ml.com and draws its data from the 10ML retail
+  site, offering read‑only tools for searching, comparing, and retrieving perfume information in multiple languages, aimed at AI assistants and
+  developers.
+
 url: https://raw.githubusercontent.com/api-evangelist/10ml/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Perfume
 - Fragrance
 - API
 - Free
 - NoAuth
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: AgenticAccess
+  url: agentic-access/10ml-agentic-access.yml
+- type: Spectral
+  url: rules/10ml-rules.yml
+- type: Vocabulary
+  url: vocabulary/10ml-vocabulary.yml
+- type: Security
+  url: security/10ml-vulnerability-disclosure.yml
+- type: ErrorCatalog
+  url: errors/10ml-problem-types.yml
+- type: Conformance
+  url: conformance/10ml-conformance.yml
+- type: LLMsTxt
+  url: llms/10ml-llms.txt
+- type: MCPServer
+  url: mcp/10ml-mcp.yml
+- type: SecurityTxt
+  url: well-known/10ml-security.txt
+- type: WellKnown
+  url: well-known/10ml-well-known.yml
+- type: Hosts
+  url: hosts/10ml-hosts.yml
+- type: Vendors
+  url: vendors/10ml-vendors.yml
+- type: SDKs
+  url: packages/10ml-packages.yml
+- type: Packages
+  url: packages/10ml-packages.yml
+- type: Newsroom
+  url: https://10ml.com/press
 - type: VulnerabilityDisclosure
   url: security/10ml-vulnerability-disclosure.yml
 - type: DomainSecurity
@@ -40,9 +86,27 @@ common:
   url: https://10ml.com/guides
 - type: GettingStarted
   url: https://10ml.com/guides/perfume-gift-guide
-x-submission-notes: Free no-auth perfume knowledge API (notes, accords, houses, similar scents); from
-  10ml.com retailer
-x-submission-probe: mcp.10ml.com 200 (Perfume MCP Server page); openapi.json 200 OpenAPI 3.1.0 v2.1.0
-  42KB; llms.txt 200; 10ml.com 200 retailer; soft-404 clean (JSON 404); MCP endpoint /mcp not POSTed (not
-  named by submitter)
+
+apis:
+- aid: 10ml:10ml-10ml-fragrance-index-api
+  name: 10ML Fragrance Index API 10ML Fragrance Index API
+  description: Perfume and fragrance notes API, curated by 10ML's fragrance editors
+  humanURL: https://mcp.10ml.com
+  baseURL: https://mcp.10ml.com
+  tags:
+  - 10ML Fragrance Index
+  properties:
+  - type: OpenAPI
+    url: openapi/10ml-10ml-fragrance-index-api-openapi.yml
+x-submission-notes: Free no-auth perfume knowledge API (notes, accords, houses, similar scents); from 10ml.com retailer
+
+x-submission-probe: mcp.10ml.com 200 (Perfume MCP Server page); openapi.json 200 OpenAPI 3.1.0 v2.1.0 42KB; llms.txt 200; 10ml.com 200 retailer;
+  soft-404 clean (JSON 404); MCP endpoint /mcp not POSTed (not named by submitter)
+
 x-submitted-by: contact+apisio@10ml.com (submission, 2026-10-19)
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 18
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

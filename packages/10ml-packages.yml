@@ -1,0 +1,10 @@
+generated: '2026-10-20'
+method: searched
+source: https://registry.npmjs.org/@10ml/perfume-finder-mcp
+packages:
+  - name: "@10ml/perfume-finder-mcp"
+    registry: "npm"
+    official: true
+    version: "2.0.2"
+    published: null
+    note: "Published date not provided by npm registry metadata"

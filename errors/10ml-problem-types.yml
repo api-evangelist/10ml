@@ -1,0 +1,27 @@
+generated: '2026-10-20'
+method: derived
+generator: derive-problem-types.py
+source:
+- openapi/10ml-openapi.json
+format: custom
+envelope:
+  media_type: application/json
+  schema: null
+coverage:
+  operations: 8
+  statuses_declared: 2
+problems:
+- status: 400
+  title: Bad Request
+  description: Invalid request
+  operations: 8
+  media_types:
+  - application/json
+  schema: null
+- status: 404
+  title: Not Found
+  description: 'Not found: the body carries closest suggestions'
+  operations: 8
+  media_types:
+  - application/json
+  schema: null

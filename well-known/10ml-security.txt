@@ -1,0 +1,5 @@
+# 10ML security contact (RFC 9116). Issued 2026-09-25.
+Contact: mailto:contact@10ml.com
+Expires: 2027-09-25T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://10ml.com/.well-known/security.txt

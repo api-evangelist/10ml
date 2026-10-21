@@ -1,0 +1,67 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 3
+  own: 3
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - docs
+  - website
+hosts:
+- host: 10ml.com
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Newsroom
+  - Website
+  - Blog
+  - GettingStarted
+  serves:
+  - docs
+  - hosting
+  vendor: vercel
+  registrable_domain: 10ml.com
+  role: website
+  relation: own
+- host: api.10ml.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: 10ml.com
+  role: api
+  relation: own
+- host: mcp.10ml.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - spec-found
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Documentation
+  - APIReference
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - api
+  - docs
+  - spec
+  - cdn
+  platform: github.com
+  vendor: cloudflare
+  registrable_domain: 10ml.com
+  role: docs
+  relation: own

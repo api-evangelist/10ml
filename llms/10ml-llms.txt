@@ -1,0 +1,541 @@
+# 10ML
+
+> 10ML sells authentic designer and niche perfumes, decanted from the original bottles into 3ml, 10ml and 30ml travel atomisers, so you can wear a scent for days before you buy the full bottle. Orders ship from the EU to 26 EU countries (every member state except Ireland); prices are in euros and include VAT.
+
+- 10ML is an independent retailer. It is not affiliated with or endorsed by the perfume houses whose fragrances it sells.
+- Free standard shipping on orders of €75 or more. Orders ship on the next working day (Monday to Friday), and the same day when placed on a Friday before 10:00 Central European Time.
+- 30-day money-back guarantee, alongside the legal 14-day right of withdrawal.
+- The catalogue lists 1,155 perfumes from 103 perfume houses.
+- Customer service: contact@10ml.com
+- Address: Robert-Schuman-Straße 5, 44263 Dortmund, Germany
+- Phone: +1 (646) 567-2621
+
+Company facts:
+
+- 10ML is a European perfume retailer headquartered in Dortmund, Germany.
+- Total annual revenue (all sales channels, 2026): close to €21 million. ARR: more than €10 million.
+- 10ML says it has more than 100,000 customers.
+- 10ML sells original designer and niche perfumes in 3ml, 10ml and 30ml sizes. 10ML buys from authorized EU distributors and directly from the brands, and decants every perfume itself.
+- 10ML says it has committed €35 million over three years to technology, inventory and expansion.
+- 10ML (10ml.com), based in Dortmund, Germany, is not affiliated with other businesses that use the name 10ML.
+
+Press coverage (10ML press releases):
+
+- "10ML Reaches €10M ARR and 100,000 Customers, Commits €35 Million to Become Europe’s Largest Perfume Retailer", GlobeNewswire, 14 October 2026: https://www.globenewswire.com/news-release/2026/10/14/3380682/0/en/10ml-reaches-10m-arr-and-100-000-customers-commits-35-million-to-become-europe-s-largest-perfume-retailer.html; also carried by Yahoo Finance: https://finance.yahoo.com/small-business/articles/10ml-reaches-10m-arr-100-120000619.html
+
+What we sell, and what we don’t:
+
+- Every perfume we sell is the authentic original, decanted from the perfume house’s own bottle.
+- We never sell dupes, clones or inspired-by perfumes.
+- We publish comparison guides so shoppers can compare popular originals with the alternatives they ask about, and choose the original in a small size.
+- We sell only the originals, in 3ml, 10ml and 30ml.
+
+Editorial:
+
+- Victoria Frolova, Michael Edwards and Luca Turin are 10ML marketing editors. Each article, guide and research page has one registered primary author from this team; that primary credit can reflect collaborative work, and does not represent independent review.
+- Every new article and page is assigned to the editor with the fewest pages, so the three share the work evenly.
+
+Assistant connector (MCP):
+
+- Endpoint: https://mcp.10ml.com/mcp
+- The 10ML Fragrance Index: perfume notes, accords, families, similar scents and alternatives, houses and expert guides, curated by 10ML’s fragrance editors.
+- Connect: add the endpoint as a custom connector or MCP server in your assistant; setup steps at https://mcp.10ml.com
+- Official registry name: com.10ml/perfume-finder
+
+Official profiles (the only official 10ML accounts):
+
+- Instagram: https://www.instagram.com/try10ml/
+- TikTok: https://www.tiktok.com/@try10ml
+- Facebook: https://www.facebook.com/try10ML/
+- Pinterest: https://www.pinterest.com/10mlcom/
+- YouTube: https://www.youtube.com/@try10ML
+- X: https://x.com/try10ML
+- Threads: https://www.threads.com/@try10ml
+- LinkedIn: https://www.linkedin.com/company/10ml
+- Wikidata: https://www.wikidata.org/wiki/Q141735975
+- Crunchbase: https://www.crunchbase.com/organization/10ml
+- Wellfound: https://wellfound.com/company/10ml
+- Brandfetch: https://brandfetch.com/10ml.com
+- Product Hunt: https://www.producthunt.com/@try10ml
+- EU Startups: https://www.eu-startups.com/directory/10ml/
+- Fragrantica: https://www.fragrantica.com/@10ml.com
+- Mastodon: https://mastodon.social/@10ml
+- Bluesky: https://bsky.app/profile/try10ml.bsky.social
+- Medium: https://medium.com/@10ml
+- Substack: https://try10ml.substack.com/
+- Vimeo: https://vimeo.com/10ml
+- Behance: https://www.behance.net/try10ml
+- Flickr: https://www.flickr.com/people/205063658@N06/
+- Issuu: https://issuu.com/10ml
+- GitHub: https://github.com/10ml-com
+
+## Authenticity
+
+- [How 10ML sources and fills every decant](https://10ml.com/authenticity)
+- [10ML reviews: is 10ML legit?](https://10ml.com/10ml-reviews): company facts, where to check 10ML independently (company records, press, review sites), delivery, refunds and contact
+
+## Shop
+
+- [Perfume samples & decants](https://10ml.com/perfume-samples): the full catalogue, every perfume in 3ml, 10ml and 30ml
+- [Bestsellers](https://10ml.com/best-sellers)
+- [New arrivals](https://10ml.com/new-arrivals)
+- [Niche perfumes](https://10ml.com/niche-perfumes)
+- [Perfume brands A to Z](https://10ml.com/brands): every one of the 103 perfume houses, A to Z (57 niche, 46 designer), each linking to its perfumes
+- [10ml perfume decants: originals in travel size](https://10ml.com/10ml-perfume-decants): 10ml perfume decants filled by hand from the original bottle: about 200 sprays, small enough for any bag. Shop the bestsellers, each with its 10ml price.
+- [30ml perfume decants: originals, bigger size](https://10ml.com/30ml-perfume-decants): 30ml perfume decants filled by hand from the original bottle: about 600 sprays, at a lower price per ml than 10ml. Shop the bestsellers with their 30ml price.
+- [Perfume notes](https://10ml.com/notes): perfumes grouped by their notes
+- [Men’s perfume](https://10ml.com/mens-perfume)
+- [Women’s perfume](https://10ml.com/womens-perfume)
+- [Unisex perfume](https://10ml.com/unisex-perfume)
+- [Summer perfumes: bestsellers people wear in summer](https://10ml.com/summer-perfumes)
+- [Winter perfumes: bestsellers people wear in winter](https://10ml.com/winter-perfumes)
+- [Spring perfumes: bestsellers people wear in spring](https://10ml.com/spring-perfumes)
+- [Daytime perfumes: bestsellers people wear by day](https://10ml.com/daytime-perfumes)
+- [Night perfumes: bestsellers people wear after dark](https://10ml.com/night-perfumes)
+- [Perfume advent calendar 2026](https://10ml.com/advent-calendar): 10ML sells two perfume advent calendars for 2026, each a fixed line-up of decants from its own catalogue: for her (€179) and for him (€159), 24 doors each, each door a 3 ml spray of a real designer or niche perfume filled from the original bottle. They are sold as a pre-order and ship from 16 November 2026.
+- [Perfume advent calendar for her 2026](https://10ml.com/advent-calendar/for-her): 24 doors of 3ml for €179, with Baccarat Rouge 540, Delina, Lost Cherry, Black Opium and J’adore among them. Ships from 16 November 2026.
+- [Perfume advent calendar for him 2026](https://10ml.com/advent-calendar/for-him): 24 doors of 3ml for €159, with Aventus, Sauvage, Oud Wood, Tobacco Vanille and Terre d’Hermès among them. Ships from 16 November 2026.
+
+### Shop by occasion
+
+- [Date night perfumes](https://10ml.com/date-night-perfumes): Warm, close scents for a date: vanilla, amber, rose and tonka. 237 perfumes from 56 houses, from €5.85 for 3ml.
+- [Everyday perfumes](https://10ml.com/everyday-perfumes): Everyday perfumes for every morning: fresh citrus, clean musk, soft florals. 322 perfumes from 71 houses, from €5.53 for 3ml.
+- [Office perfumes](https://10ml.com/office-perfumes): Office perfumes that stay in your own space: clean musk, citrus, tea, iris. 206 perfumes from 57 houses, from €5.58 for 3ml.
+- [Gym perfumes](https://10ml.com/gym-perfumes): Fresh gym perfumes and colognes: citrus, mint and sea notes that stay light. 335 perfumes from 82 houses, from €5.58 for 3ml.
+- [Autumn perfumes](https://10ml.com/autumn-perfumes): The best autumn perfumes by wearer votes: vanilla, amber, patchouli and woods, in 3ml, 10ml and 30ml decants filled from the original bottle. 649 perfumes from 99 houses, from €5.53 for 3ml.
+- [Iconic perfumes](https://10ml.com/iconic-perfumes): Iconic perfumes: the classics that set a style others followed. 56 perfumes from 29 houses, from €6.21 for 3ml.
+- [Long-lasting perfumes](https://10ml.com/long-lasting-perfumes): Long-lasting perfumes, chosen by the votes of the people who wear them. 175 perfumes from 49 houses, from €6.21 for 3ml.
+- [Underrated perfumes](https://10ml.com/underrated-perfumes): Underrated perfumes: rated highly by those who wear them, known by few. 291 perfumes from 71 houses, from €5.58 for 3ml.
+
+### Discovery sets
+
+- [Perfume discovery set: pick any 4 minis in 3 ml](https://10ml.com/build-your-own-perfume-discovery-set): build your own perfume discovery set: pick any 4 perfumes from every house 10ML sells, each a 3ml decant of the original; every 4th 3ml is free (the cheapest), and a first order with 4 or more 3ml gets one more 3ml as a gift, chosen from three suggestions in the bag
+- [Bestsellers discovery set](https://10ml.com/perfume-discovery-set-bestsellers): a ready-made discovery set of four 10ML bestsellers in 3ml; swap any of them before adding the set
+- [Perfume discovery set for her](https://10ml.com/perfume-discovery-set-for-her): a ready-made discovery set of four bestselling women’s perfumes in 3ml; swap any of them before adding the set
+- [Perfume discovery set for him](https://10ml.com/perfume-discovery-set-for-him): a ready-made discovery set of four bestselling men’s perfumes in 3ml; swap any of them before adding the set
+- [Niche perfume discovery set](https://10ml.com/niche-perfume-discovery-set): a ready-made discovery set of four niche perfumes in 3ml; swap any of them before adding the set
+- [Xerjoff perfumes in a discovery set](https://10ml.com/xerjoff-discovery-set): a discovery set of four Xerjoff perfumes in 3ml, decanted from the originals; swap in any other Xerjoff perfume 10ML sells
+- [Creed discovery set](https://10ml.com/creed-discovery-set): a discovery set of four Creed perfumes in 3ml, decanted from the originals; swap in any other Creed perfume 10ML sells
+- [Parfums de Marly discovery set](https://10ml.com/parfums-de-marly-discovery-set): a discovery set of four Parfums de Marly perfumes in 3ml, decanted from the originals; swap in any other Parfums de Marly perfume 10ML sells
+- [Amouage perfumes in a discovery set](https://10ml.com/amouage-discovery-set): a discovery set of four Amouage perfumes in 3ml, decanted from the originals; swap in any other Amouage perfume 10ML sells
+- [Maison Francis Kurkdjian discovery set](https://10ml.com/maison-francis-kurkdjian-discovery-set): a discovery set of four Maison Francis Kurkdjian perfumes in 3ml, decanted from the originals; swap in any other Maison Francis Kurkdjian perfume 10ML sells
+- [Initio discovery set](https://10ml.com/initio-discovery-set): a discovery set of four Initio perfumes in 3ml, decanted from the originals; swap in any other Initio perfume 10ML sells
+- [Byredo discovery set](https://10ml.com/byredo-discovery-set): a discovery set of four Byredo perfumes in 3ml, decanted from the originals; swap in any other Byredo perfume 10ML sells
+- [Kilian discovery set](https://10ml.com/kilian-discovery-set): a discovery set of four Kilian perfumes in 3ml, decanted from the originals; swap in any other Kilian perfume 10ML sells
+- [Tom Ford discovery set](https://10ml.com/tom-ford-discovery-set): a discovery set of four Tom Ford perfumes in 3ml, decanted from the originals; swap in any other Tom Ford perfume 10ML sells
+- [Lattafa discovery set](https://10ml.com/lattafa-discovery-set): a discovery set of four Lattafa perfumes in 3ml, decanted from the originals; swap in any other Lattafa perfume 10ML sells
+- [Coffret découverte parfum : composez vos 4 échantillons en 3 ml](https://10ml.com/fr/composer-coffret-decouverte-parfum): the build-your-own discovery set page (in French)
+- [Discovery set profumi: scegli 4 mini profumi da 3 ml](https://10ml.com/it/crea-set-campioncini-profumi): the build-your-own discovery set page (in Italian)
+- [Set de mostre parfumuri: alege oricare 4 mini parfumuri de 3 ml](https://10ml.com/ro/creeaza-set-mostre-parfumuri): the build-your-own discovery set page (in Romanian)
+- [Mini perfumes set: διάλεξε όποια 4 mini αρώματα σε 3 ml](https://10ml.com/gr/ftiaxe-set-deigmaton-aromaton): the build-your-own discovery set page (in Greek)
+- [Mini parfüm szett: válassz 4 minit 3 ml-ben](https://10ml.com/hu/parfum-minta-szett-osszeallitas): the build-your-own discovery set page (in Hungarian)
+- [Sada vzorků parfémů: vyberte libovolné 4 mini po 3 ml](https://10ml.com/cz/sestavte-si-sadu-vzorku-parfemu): the build-your-own discovery set page (in Czech)
+- [Zestaw próbek perfum: wybierz dowolne 4 miniaturki 3 ml](https://10ml.com/pl/skomponuj-zestaw-probek-perfum): the build-your-own discovery set page (in Polish)
+
+### Gifts
+
+- [Perfume gift guide 2026: 10 picks they will wear](https://10ml.com/guides/perfume-gift-guide): Perfume gift guide 2026: 10 picks for her, for him and for anyone, matched by scent and budget, each in a 10ml decant.
+- [Perfume gifts for her](https://10ml.com/perfume-gifts-for-her): women’s perfumes chosen as gifts, each in a 10ml decant
+- [Perfume gifts for him](https://10ml.com/perfume-gifts-for-him): men’s perfumes chosen as gifts, each in a 10ml decant
+- [Perfume gifts under €20](https://10ml.com/perfume-gifts-under-20): perfume gifts priced under €20 for a 10ml decant
+- [Christmas perfume gifts 2026](https://10ml.com/christmas-perfume-gifts): winter favourites to give for Christmas, in 10ml decants
+- [Secret Santa perfume gifts under €25](https://10ml.com/secret-santa-perfume-gifts): easy-to-wear perfumes under €25 for a 10ml decant, for a Secret Santa draw
+- [Perfume for mum: gift ideas](https://10ml.com/perfume-for-mum): women’s and unisex perfumes to wear every day, as gifts for mum, in 10ml decants
+- [Trio for her](https://10ml.com/perfume-gift-set-for-her): perfume gift set: three women’s perfumes as 10ml decants filled from the original bottle, with a printed gift card
+- [Trio for him](https://10ml.com/perfume-gift-set-for-him): perfume gift set: three men’s perfumes as 10ml decants filled from the original bottle, with a printed gift card
+- [Crowd favourites trio](https://10ml.com/perfume-gift-set-bestsellers): perfume gift set: three unisex favourites as 10ml decants filled from the original bottle, with a printed gift card
+- [10ML gift card](https://10ml.com/gift-cards): a 10ML gift card from €25 to €150 with the sender’s name and message, emailed as soon as the order is paid; the recipient chooses their own perfumes
+- [Idei de cadou Moș Nicolae cu parfum](https://10ml.com/ro/cadou-mos-nicolae-parfum): sweet vanilla, caramel and chocolate scents under €25 for a 10ml decant, for St Nicholas on 6 December (in Romanian)
+- [Parfum für Jugendliche: Geschenkideen](https://10ml.com/de/parfum-fuer-jugendliche): recent fresh, fruity and sweet perfumes for teenagers, in 10ml decants (in German)
+- [Parfum für Oma: Geschenkideen](https://10ml.com/de/parfum-fuer-oma): floral and powdery classics for grandmothers, in 10ml decants (in German)
+- [Cofanetto miniature profumi: idee regalo da 3ml](https://10ml.com/it/cofanetto-miniature-profumi): well-known perfumes as 3ml miniatures under €10 each, to make a mini perfume gift box (in Italian)
+
+### Nederlands
+
+- [Parfumsamples & decants](https://10ml.com/nl/parfum-samples): the full catalogue, every perfume in 3ml, 10ml and 30ml (in Dutch)
+- [Parfum discoveryset: kies 4 mini’s van 3 ml](https://10ml.com/nl/mini-parfum-set-samenstellen): the build-your-own discovery set page (in Dutch)
+- [Parfum-adventskalender 2026](https://10ml.com/nl/parfum-adventskalender): the advent calendars for her and for him (in Dutch)
+
+## Bestsellers
+
+- [Imagination by Louis Vuitton](https://10ml.com/perfumes/louis-vuitton-imagination)
+- [Aventus by Creed](https://10ml.com/perfumes/creed-aventus)
+- [Guidance by Amouage](https://10ml.com/perfumes/amouage-guidance)
+- [Ombre Nomade by Louis Vuitton](https://10ml.com/perfumes/louis-vuitton-ombre-nomade)
+- [XJ 1861 Naxos by Xerjoff](https://10ml.com/perfumes/xerjoff-xj-1861-naxos)
+- [Guidance 46 by Amouage](https://10ml.com/perfumes/amouage-guidance-46)
+- [Valaya by Parfums de Marly](https://10ml.com/perfumes/parfums-de-marly-valaya)
+- [Baccarat Rouge 540 Extrait by Maison Francis Kurkdjian](https://10ml.com/perfumes/maison-francis-kurkdjian-baccarat-rouge-540-extrait)
+- [Reflection Man by Amouage](https://10ml.com/perfumes/amouage-reflection-man)
+- [Pacific Chill by Louis Vuitton](https://10ml.com/perfumes/louis-vuitton-pacific-chill)
+- [Hacivat by Nishane](https://10ml.com/perfumes/nishane-hacivat)
+- [Delina by Parfums de Marly](https://10ml.com/perfumes/parfums-de-marly-delina)
+
+## Popular perfume houses
+
+- [Louis Vuitton](https://10ml.com/brands/louis-vuitton)
+- [Creed](https://10ml.com/brands/creed)
+- [Amouage](https://10ml.com/brands/amouage)
+- [Xerjoff](https://10ml.com/brands/xerjoff)
+- [Parfums de Marly](https://10ml.com/brands/parfums-de-marly)
+- [Maison Francis Kurkdjian](https://10ml.com/brands/maison-francis-kurkdjian)
+- [Nishane](https://10ml.com/brands/nishane)
+- [Ex Nihilo](https://10ml.com/brands/ex-nihilo)
+- [Byredo](https://10ml.com/brands/byredo)
+- [Initio Parfums Privés](https://10ml.com/brands/initio-parfums-prives)
+- [By Kilian](https://10ml.com/brands/by-kilian)
+- [Montale](https://10ml.com/brands/montale)
+
+## Perfume houses
+
+- [Acqua di Parma](https://10ml.com/brands/acqua-di-parma)
+- [Afnan](https://10ml.com/brands/afnan)
+- [Amouage](https://10ml.com/brands/amouage)
+- [Armaf](https://10ml.com/brands/armaf)
+- [Atelier des Ors](https://10ml.com/brands/atelier-des-ors)
+- [Atkinsons](https://10ml.com/brands/atkinsons)
+- [Azzaro](https://10ml.com/brands/azzaro)
+- [Balmain](https://10ml.com/brands/balmain)
+- [BDK Parfums](https://10ml.com/brands/bdk-parfums)
+- [Boadicea the Victorious](https://10ml.com/brands/boadicea-the-victorious)
+- [Burberry](https://10ml.com/brands/burberry)
+- [Bvlgari](https://10ml.com/brands/bvlgari)
+- [By Kilian](https://10ml.com/brands/by-kilian)
+- [Byredo](https://10ml.com/brands/byredo)
+- [Calvin Klein](https://10ml.com/brands/calvin-klein)
+- [Carolina Herrera](https://10ml.com/brands/carolina-herrera)
+- [Chloé](https://10ml.com/brands/chloe)
+- [Clive Christian](https://10ml.com/brands/clive-christian)
+- [Comme des Garçons](https://10ml.com/brands/comme-des-garcons)
+- [Creed](https://10ml.com/brands/creed)
+- [Dior](https://10ml.com/brands/dior)
+- [Diptyque](https://10ml.com/brands/diptyque)
+- [Dolce&Gabbana](https://10ml.com/brands/dolce-gabbana)
+- [DSQUARED²](https://10ml.com/brands/dsquared)
+- [Escentric Molecules](https://10ml.com/brands/escentric-molecules)
+- [État Libre d'Orange](https://10ml.com/brands/etat-libre-d-orange)
+- [Ex Nihilo](https://10ml.com/brands/ex-nihilo)
+- [Fragrance du Bois](https://10ml.com/brands/fragrance-du-bois)
+- [Frédéric Malle](https://10ml.com/brands/frederic-malle)
+- [Fugazzi](https://10ml.com/brands/fugazzi)
+- [Giardini di Toscana](https://10ml.com/brands/giardini-di-toscana)
+- [Giardino Benessere](https://10ml.com/brands/giardino-benessere)
+- [Giorgio Armani](https://10ml.com/brands/giorgio-armani)
+- [Givenchy](https://10ml.com/brands/givenchy)
+- [Goldfield & Banks](https://10ml.com/brands/goldfield-and-banks)
+- [Gucci](https://10ml.com/brands/gucci)
+- [Guerlain](https://10ml.com/brands/guerlain)
+- [Hermès](https://10ml.com/brands/hermes)
+- [Hugo Boss](https://10ml.com/brands/hugo-boss)
+- [Initio Parfums Privés](https://10ml.com/brands/initio-parfums-prives)
+- [Issey Miyake](https://10ml.com/brands/issey-miyake)
+- [Jean Paul Gaultier](https://10ml.com/brands/jean-paul-gaultier)
+- [Jimmy Choo](https://10ml.com/brands/jimmy-choo)
+- [Jo Malone London](https://10ml.com/brands/jo-malone-london)
+- [Juliette Has a Gun](https://10ml.com/brands/juliette-has-a-gun)
+- [Kajal](https://10ml.com/brands/kajal)
+- [Kayali](https://10ml.com/brands/kayali)
+- [Lalique](https://10ml.com/brands/lalique)
+- [Lancôme](https://10ml.com/brands/lancome)
+- [Lattafa](https://10ml.com/brands/lattafa)
+- [Le Labo](https://10ml.com/brands/le-labo)
+- [Louis Vuitton](https://10ml.com/brands/louis-vuitton)
+- [Maison Crivelli](https://10ml.com/brands/maison-crivelli)
+- [Maison Francis Kurkdjian](https://10ml.com/brands/maison-francis-kurkdjian)
+- [Maison Margiela](https://10ml.com/brands/maison-margiela)
+- [Maison Noir](https://10ml.com/brands/maison-noir)
+- [Mancera](https://10ml.com/brands/mancera)
+- [Marc Jacobs](https://10ml.com/brands/marc-jacobs)
+- [Matière Première](https://10ml.com/brands/matiere-premiere)
+- [Memo Paris](https://10ml.com/brands/memo-paris)
+- [Miu Miu](https://10ml.com/brands/miu-miu)
+- [Montale](https://10ml.com/brands/montale)
+- [Montblanc](https://10ml.com/brands/montblanc)
+- [Mugler](https://10ml.com/brands/mugler)
+- [Narciso Rodriguez](https://10ml.com/brands/narciso-rodriguez)
+- [Nasomatto](https://10ml.com/brands/nasomatto)
+- [New Notes](https://10ml.com/brands/new-notes)
+- [Nishane](https://10ml.com/brands/nishane)
+- [Pantheon Roma](https://10ml.com/brands/pantheon-roma)
+- [Parfums de Marly](https://10ml.com/brands/parfums-de-marly)
+- [Penhaligon's](https://10ml.com/brands/penhaligon-s)
+- [Prada](https://10ml.com/brands/prada)
+- [Rabanne](https://10ml.com/brands/rabanne)
+- [Ralph Lauren](https://10ml.com/brands/ralph-lauren)
+- [Roja Dove](https://10ml.com/brands/roja-dove)
+- [Rosendo Mateu](https://10ml.com/brands/rosendo-mateu)
+- [Serge Lutens](https://10ml.com/brands/serge-lutens)
+- [Sora Dora](https://10ml.com/brands/sora-dora)
+- [Sospiro](https://10ml.com/brands/sospiro)
+- [Stéphane Humbert Lucas 777](https://10ml.com/brands/stephane-humbert-lucas-777)
+- [Tiziana Terenzi](https://10ml.com/brands/tiziana-terenzi)
+- [Tom Ford](https://10ml.com/brands/tom-ford)
+- [Toskovat'](https://10ml.com/brands/toskovat)
+- [Trussardi](https://10ml.com/brands/trussardi)
+- [Valentino](https://10ml.com/brands/valentino)
+- [Versace](https://10ml.com/brands/versace)
+- [Vilhelm Parfumerie](https://10ml.com/brands/vilhelm-parfumerie)
+- [Xerjoff](https://10ml.com/brands/xerjoff)
+- [Yves Saint Laurent](https://10ml.com/brands/yves-saint-laurent)
+
+## Research and data
+
+- [10ML 2026 Perfume Price Report: EU and per-ml prices](https://10ml.com/guides/perfume-market-and-prices): the 10ML 2026 Perfume Price Report: dated key findings on what the same perfume costs across EU countries, niche against designer per ml, gift sets against bottles and price per ml by size, key market figures with their named source and the date checked, and every 10ML research piece with its data downloads
+- [Perfume price per ml index 2026: 3ml to full bottle](https://10ml.com/guides/perfume-price-per-ml-index): what a perfume costs per ml at 10ML in 3ml, 10ml and 30ml, by designer and niche house and by perfume house, computed live from the catalogue (10ML member price, VAT included). Data (CC BY 4.0), 10ML Price-per-ml Index: CSV https://10ml.com/guides/perfume-price-per-ml-index/csv · JSON https://10ml.com/guides/perfume-price-per-ml-index/json
+- [Why is perfume so expensive? Where the money in a bottle goes, per ml, in 2026](https://10ml.com/guides/perfume-cost-breakdown): where the money in a bottle of perfume goes: filed cost ratios from perfume companies' annual reports, EU VAT rates, raw-material prices and the price per ml at 10ML. Data (CC BY 4.0), Standard VAT rates in the 27 EU countries, 2026: CSV https://10ml.com/data/eu-vat-standard-rates-2026.csv · JSON https://10ml.com/data/eu-vat-standard-rates-2026.json
+- [Perfume samples price per ml in 2026: travel sprays, minis, discovery sets and decants, measured](https://10ml.com/guides/perfume-sample-prices): what it costs per ml to try a perfume: every travel spray, mini, discovery set, refill and full bottle of 24 perfumes on official EU house stores, beside 10ML's 3ml, 10ml and 30ml decants. Data (CC BY 4.0), The price of trying a perfume: €/ml across samples, travel sprays, discovery sets and full bottles on official EU house stores, October 2026: CSV https://10ml.com/data/trial-formats-2026-10.csv · JSON https://10ml.com/data/trial-formats-2026-10.json
+- [Niche perfume price per ml in 2026: how much more niche costs than designer, measured](https://10ml.com/guides/niche-perfume-price-per-ml): how much more niche perfume costs per ml than designer, from the 10ML Price-per-ml Index and official full-bottle prices, with the luxury niche perfume market size as each research firm labels it
+- [Who owns perfume brands in 2026: 89 houses mapped to their groups, licences and revenue lines](https://10ml.com/guides/who-owns-perfume-brands): who owns each of the perfume houses 10ML sells and who makes their perfume under licence, from annual reports, filings and official releases, with each group's published revenue line and its scope. Data (CC BY 4.0), Who owns the 89 perfume houses 10ML sells, October 2026: CSV https://10ml.com/data/house-ownership-2026.csv · JSON https://10ml.com/data/house-ownership-2026.json
+- [Perfume raw material prices in 2026: what oud, orris and musks cost per kilo, against what you pay per ml](https://10ml.com/guides/perfume-raw-material-prices): what perfume raw materials cost per kilo or per ml on perfumers' supply price lists, from synthetic molecules to oud, orris and rose, against the price per ml of finished perfume at 10ML
+- [How many new perfumes launch each year: what three fragrance databases counted, 2010 to 2025](https://10ml.com/guides/new-perfume-launches-per-year): how many perfumes per release year three public fragrance databases list from 2010 to 2025, read on one day, plus the published Fragrances of the World launch counts, and why database entries are not market launches. Data (CC BY 4.0), Perfumes per release year, 2010–2025, in three public fragrance databases: CSV https://10ml.com/data/perfume-launches-per-year.csv · JSON https://10ml.com/data/perfume-launches-per-year.json
+- [Perfume prices across Europe in 2026: the same bottle, a different price per ml in 13 countries](https://10ml.com/guides/perfume-prices-europe): the same perfume's regular price on the house's own store in 13 EU countries on one day, beside each country's standard VAT rate. Data (CC BY 4.0), Same perfume, different price: official house e-shop prices across 13 European countries (October 2026): CSV https://10ml.com/data/europe-house-prices-2026-10.csv · JSON https://10ml.com/data/europe-house-prices-2026-10.json; Data (CC BY 4.0), Standard VAT rates in the 27 EU countries, 2026: CSV https://10ml.com/data/eu-vat-standard-rates-2026.csv · JSON https://10ml.com/data/eu-vat-standard-rates-2026.json
+- [Perfume gift sets 2026: what each costs per ml vs the bottle](https://10ml.com/guides/perfume-gift-sets-per-ml): what official perfume gift sets cost per ml of perfume against the same perfume as a bottle on the same house store, including the first Christmas 2026 coffrets. Data (CC BY 4.0), Gift sets vs full bottles: what an official perfume coffret costs per ml of fragrance, EU house stores, October 2026: CSV https://10ml.com/data/gift-sets-2026-10.csv · JSON https://10ml.com/data/gift-sets-2026-10.json
+- [Louis Vuitton perfume price in 2026: every bottle per ml, and what a decant costs instead](https://10ml.com/guides/louis-vuitton-perfume-prices): what every Louis Vuitton perfume 10ML stocks cost on Louis Vuitton's French store on 18 October 2026, per bottle and per ml, the 200ml and travel spray against the 100ml, and the same perfumes as 3ml, 10ml and 30ml decants. Data (CC BY 4.0), Louis Vuitton perfume list prices per ml, official French store, October 2026: CSV https://10ml.com/data/louis-vuitton-prices-2026-10.csv · JSON https://10ml.com/data/louis-vuitton-prices-2026-10.json
+
+## Guides
+
+- [Perfume guides: decants, notes and how to choose](https://10ml.com/guides): Straight answers about decants, sizes, price per ml, gifts, travel and choosing perfume online, from 10ML.
+- [What is a perfume decant?](https://10ml.com/guides/what-is-a-perfume-decant): A decant is original perfume moved from its bottle into a smaller one. How 3ml, 10ml and 30ml decants work, and why wearing one first beats a blind buy.
+- [Decant vs full bottle 2026: is 10 ml worth it?](https://10ml.com/guides/decant-vs-full-bottle): Is a 10 ml perfume decant worth it compared with a full bottle in 2026? Price per ml for three niche perfumes, and where to buy 10 ml decants in Germany.
+- [How to choose a perfume without smelling it](https://10ml.com/guides/how-to-choose-perfume-without-smelling-it): Buying perfume online? Read the notes, know your scent family, pick the moment, then wear a small size first. A practical guide from 10ML.
+- [Niche perfumes to try first in 2026, as 3 ml decants](https://10ml.com/guides/best-niche-perfumes-to-try): Which niche perfumes to try first in 2026: ten well-known references by style, 3 ml and 10 ml decant prices, and decant shops for Germany and Spain compared.
+- [Travel-size perfume for carry-on 2026: where to buy](https://10ml.com/guides/travel-perfume-guide): Travel-size perfume for hand luggage in 2026: the 100 ml rule, four ways to carry your scent, and decant shops compared by 10 ml price and delivery.
+- [A perfume subscription alternative](https://10ml.com/guides/perfume-subscription-alternative): Want to try new perfumes without a monthly plan? How buying decants one order at a time compares with a perfume subscription, and when each suits you.
+- [Build-your-own niche discovery sets compared (2026)](https://10ml.com/guides/discovery-set-alternative): The best build-your-own niche perfume discovery sets in 2026: 10ML, EOTRA, Maison des Miniatures and more, compared by houses, sample size and price.
+- [Blind buying perfume? Wear it first](https://10ml.com/guides/blind-buy-alternative): Thinking of buying a full perfume bottle unsmelled? Wear a 3ml or 10ml decant first. What the step in between costs, and when a blind buy makes sense.
+- [About our decants: how 10ML fills and ships them](https://10ml.com/guides/about-our-decants): How 10ML decants are filled by hand from original bottles, sealed and labelled, shipped across the EU, and covered by a 30-day money-back guarantee.
+- [Perfume decant shops in Europe: price per ml compared](https://10ml.com/guides/perfume-decant-shops-europe): Where to buy perfume decants in Europe: 10ML and eight other shops, with sizes, delivery and the 10ml price per ml of the same three perfumes.
+- [10ML vs Scentbird: decants or a subscription](https://10ml.com/guides/10ml-vs-scentbird): 10ML and Scentbird compared on sizes, price per ml, commitment and delivery, with sources: one-off decants in 3ml, 10ml and 30ml, or a monthly 8ml vial.
+- [10ML vs Surrender to Chance: decants compared](https://10ml.com/guides/10ml-vs-surrender-to-chance): 10ML and Surrender to Chance compared on decant sizes, prices, sets and where each ships from, with a source and check date for every fact.
+- [Best niche perfumes for women to try in 3ml](https://10ml.com/guides/best-niche-perfumes-for-women): The niche perfumes for women our shoppers choose most, from houses that put the perfume first, each one a 3ml, 10ml or 30ml decant of the original.
+- [Best niche perfumes for men to try in 3ml](https://10ml.com/guides/best-niche-perfumes-for-men): The niche perfumes for men our shoppers choose most, from houses that put the perfume first, each one a 3ml, 10ml or 30ml decant of the original.
+- [Christmas gifts for employees: original perfume](https://10ml.com/guides/gifts-for-employees): Give every employee an original designer or niche perfume in 3ml or 10ml. Ready-made team sets, a written quote, bank transfer and a company invoice.
+- [Powdery perfume: 16 to try, from heliotrope and violet to talc](https://10ml.com/guides/powdery-perfumes): A powdery perfume smells soft and dry. Here are 16, sorted by where the powder comes from, with the votes on when to wear each, and a 3ml way to test two sources.
+- [Best Dior perfume for women, for men and to share](https://10ml.com/guides/best-dior-perfumes): There is no single best Dior perfume. This guide sorts the house into a women's, a men's and a shared wardrobe, with scents, moments and a 3ml way to compare.
+- [Leather perfume: 16 to try, from soft suede to smoky birch](https://10ml.com/guides/leather-perfumes): Leather perfume runs from soft suede you can wear to work to dark, smoky birch for a winter night. Here are 16 to try in 4 groups, and a 3ml way to test both ends.
+- [Tonka perfumes: 15 to try, from almond and coffee to fresh lavender](https://10ml.com/guides/tonka-perfumes): A good tonka perfume depends on what sits beside the tonka. This guide maps 15 of them by corner: almond and cherry, coffee and cacao, spice and rum, soft florals, and fresh lavender.
+- [Best Amouage perfume: the house mapped by mood](https://10ml.com/guides/best-amouage-perfumes): There is no single best Amouage perfume, so we map 17 of them by mood, from soft and luminous to incense, spice and tobacco, with a 3ml route through the house.
+- [Best Jean Paul Gaultier perfumes: Le Male, Scandal, La Belle and the rest, for him and for her](https://10ml.com/guides/best-jean-paul-gaultier-perfumes): Jean Paul Gaultier perfumes fall into a few families, each with sweeter, fresher or stronger versions. Here is how Le Male, Le Beau, Scandal, La Belle and Divine Elixir differ, and how to try one.
+- [Luxury perfume: 16 to give or to keep, for her, for him and to share](https://10ml.com/guides/luxury-perfumes): A luxury perfume is a matter of the house, the making and the materials, not the price tag. Here are 16 to give or to keep, grouped by who they suit and by style.
+- [Amber perfume: 16 warm picks, mapped by accord](https://10ml.com/guides/amber-perfumes): Amber is an accord, not one ingredient, and it takes 5 shapes in a bottle. Here are 16 perfumes grouped by shape, with who each suits and what to try first.
+- [Patchouli perfume: 16 to try, from sweet to earthy](https://10ml.com/guides/patchouli-perfumes): Start with Angel for a sweet patchouli perfume or MYSLF for a dry one. Here are 16, grouped by style from sugary to bright, with a way to try both in 3ml.
+- [Ambergris perfumes: eleven that list the note, and three built on Ambroxan](https://10ml.com/guides/ambergris-perfumes): An ambergris perfume smells of salty skin, soft musk and a warm mineral glow. Eleven perfumes list the note, grouped by how they wear, plus three built on Ambroxan.
+- [Best Maison Francis Kurkdjian perfumes, beyond Baccarat Rouge 540](https://10ml.com/guides/best-maison-francis-kurkdjian-perfumes): Fourteen Maison Francis Kurkdjian perfumes grouped by mood, from fresh colognes to warm evenings and three oud perfumes, with the one to try first for each taste.
+- [Best oud perfume for anyone: rose, sweet, light and smoky picks](https://10ml.com/guides/best-oud-perfumes): The best oud perfume is the one that suits how you wear scent. Fourteen ouds grouped by style, from rose and sweet to light and smoky, with a 3ml way in.
+- [Iris perfume: powdery, clean and earthy scents for women and men](https://10ml.com/guides/iris-perfumes): An iris perfume smells powdery, cool and a little earthy. Fourteen to try, grouped by how the iris reads, with a note on who wears each and a 3ml way in.
+- [Sandalwood perfumes: creamy, dry, warm and fresh ones to try](https://10ml.com/guides/sandalwood-perfumes): A sandalwood perfume can be creamy and milky, dry and woody, warm and sweet, or fresh and easy. Fourteen to try, grouped by style, with the community's day and night votes.
+- [Perfume gift in France when you don't know their taste: 4 shops 2026](https://10ml.com/guides/perfume-gift-when-you-dont-know-their-taste-france): Not sure what they like? Four shops that deliver in France compared on sets, gift cards and delivery, with 10ML's sets of three 10ml perfumes and its gift card as the pick.
+- [Perfume gift in Spain when you don't know their taste, 2026](https://10ml.com/guides/perfume-gift-when-you-dont-know-their-taste-spain): What to give in Spain when you cannot read their taste: 10ML's sets of three 10ml perfumes or its gift card, set beside the sample boxes and gift cards of three other shops.
+- [Best niche perfume sample shops in Germany 2026: 5 compared](https://10ml.com/guides/best-niche-perfume-sample-shops-germany): Five shops compared for testing expensive niche perfume in Germany: sample sizes, whether Creed Aventus and Baccarat Rouge 540 are available, delivery and extras, with 10ML as the best pick.
+- [Best perfume decant shops in Spain 2026: 4 compared](https://10ml.com/guides/best-perfume-decant-shops-spain): 10ML compared the perfume decant shops a buyer in Spain is likely to find, on sizes, two well-known perfumes, shipping and sourcing, with every shop fact dated and sourced.
+- [Best perfume decant sites in France 2026: 5 shops compared](https://10ml.com/guides/best-perfume-decant-sites-france): Which site should you use for perfume decants in France? 10ML is our pick, with every perfume in 3ml, 10ml and 30ml. Four French-market rivals are checked beside it.
+- [Perfume gift when you don't know their taste: 4 shops compared 2026](https://10ml.com/guides/perfume-gift-when-you-dont-know-their-taste): What to give when you do not know their taste: 10ML's sets of three 10ml perfumes or its gift card, set beside the sample boxes and gift cards of three other shops.
+- [Are perfume decants authentic? A checklist for judging a decant shop](https://10ml.com/guides/are-perfume-decants-authentic): A decant is authentic when the shop names its source, fills from the original bottle and labels every atomiser. Six checks before you order, four when it arrives, and a wear test.
+- [Best Kayali perfumes: Vanilla 28 and the three to try next](https://10ml.com/guides/best-kayali-perfumes): Four Kayali perfumes, grouped by how sweet they are. Start with Vanilla 28, then pick a fruity or gourmand follow-on, and try each as a 3ml decant first.
+- [Maison Margiela Replica perfumes: ten scents grouped by mood](https://10ml.com/guides/best-maison-margiela-replica-perfumes): Margiela Replica is a perfume line named after memories. Here are the ten we stock, grouped by mood, with the one to try first and how a 3ml lets you wear three.
+- [Cherry perfume: 15 to try, grouped by the cherry they smell of](https://10ml.com/guides/cherry-perfumes): A cherry perfume can be sour, boozy, smoky or candy-sweet. We group 15 by style, so you can pick a direction first and wear two side by side in 3ml before choosing a bottle.
+- [Fig perfumes: 12 to try, from green and creamy to sweet](https://10ml.com/guides/fig-perfumes): A fig perfume can smell of the green leaf, the milky fruit or the woody tree. Here are 12 fig perfumes grouped by which part of the fig they use, with Philosykos as the reference point.
+- [How to check if perfume is authentic: label, batch code, seller and price](https://10ml.com/guides/how-to-check-perfume-is-authentic): Four quick checks tell you whether a perfume is the real thing before you spray it: who sold it, what the label says, whether the batch codes match, and whether the price makes sense.
+- [Most expensive perfume: the record bottle, and the dearest per ml you can try](https://10ml.com/guides/most-expensive-perfumes): The most expensive perfume in the world is a one-off bottle from 2005. The ones you can buy are dear per ml, so we group the dearest in our catalogue by style.
+- [Oud perfume for men: 12 to try, from soft wood to dark leather](https://10ml.com/guides/oud-perfumes-for-men): An oud perfume for men comes in three styles: smooth and woody, spiced and sweet, smoky and leathery. Twelve to try, who each suits, and how to climb from soft to dark in 3ml.
+- [Fragrance notes explained: top, heart and base, and how to read a notes list](https://10ml.com/guides/perfume-notes-explained): Top, heart and base notes show how a perfume changes from first spray to dry-down. Learn to read a notes list, then see it work on five perfumes.
+- [Vanilla perfume for men: 12 that wear smoky, woody or fresh](https://10ml.com/guides/vanilla-perfumes-for-men): Vanilla in men's perfume is rarely dessert. Here are 12, grouped by what the vanilla is paired with: tobacco, lavender, wood or spice.
+- [What is extrait de parfum? Strength, wear and whether it is worth it](https://10ml.com/guides/what-is-extrait-de-parfum): Extrait de parfum is the most concentrated strength a house sells. Here is what the label means, how it wears next to eau de parfum, and six extraits compared at price per ml.
+- [What is sillage? The scent trail, and how it differs from longevity](https://10ml.com/guides/what-is-sillage): Sillage is the trail of scent a perfume leaves as you move. Here is how it differs from longevity and projection, and how to read the community sillage vote.
+- [Fragrance advent calendar 2026: the 11 best, ranked by what is inside](https://10ml.com/guides/perfume-advent-calendars-2026): Eleven perfume advent calendars for 2026, ranked by the perfume behind their doors, with what is inside each one, dated prices and the price per ml.
+- [What is ambergris? Ambergris vs ambroxan, and the perfumes built on each](https://10ml.com/guides/ambergris-vs-ambroxan): Ambergris comes from the sea, ambroxan from a laboratory. What each one is, what each smells like, how to read them on a notes list, and twelve perfumes that use one or both.
+- [What does Aventus smell like? Aventus vs Absolu Aventus and Aventus Cologne](https://10ml.com/guides/aventus-absolu-aventus-cologne): Aventus is dark fruit over smoky birch, Absolu Aventus adds warm spice, and Aventus Cologne turns to mandarin and mint. How the three Creed scents differ, and how to choose before you buy a bottle.
+- [Baccarat Rouge 540 vs Extrait: two note lists under one name](https://10ml.com/guides/baccarat-rouge-540-vs-extrait): Baccarat Rouge 540 leans on sugar, fir resin and amberwood; the Extrait swaps them for bitter almond, musk and cashmeran. Both pyramids compared, and how to choose on your own skin.
+- [Best Byredo perfumes 2026: 12 by style, 3 to start with](https://10ml.com/guides/best-byredo-perfumes): Byredo makes quiet, abstract scents that say little on a paper strip. Twelve Byredo perfumes grouped by style, and how to wear a shortlist before you choose a bottle.
+- [The best Creed perfumes beyond Aventus, grouped by style](https://10ml.com/guides/best-creed-perfumes): Twelve Creed perfumes grouped by style, from bright citrus and sea to green classics, warm woods and evening florals, and how to wear them before you buy a bottle.
+- [The best Diptyque perfumes, and a first three to try](https://10ml.com/guides/best-diptyque-perfumes): Nine Diptyque perfumes grouped by style, from green fig and bright orange to rose, soft musk and warm sandalwood, with a first three to wear before you buy a bottle.
+- [Sweet perfumes: 14 gourmands from caramel to coffee](https://10ml.com/guides/best-gourmand-perfumes): Fourteen gourmand perfumes grouped by the sweetness they are built on, caramel, coffee, praline or fruit and honey, and how to find your level of sweet before you buy a bottle.
+- [The best Guerlain perfume for women and men, by style](https://10ml.com/guides/best-guerlain-perfumes): Twelve Guerlain perfumes grouped by style, from ambery evening classics such as Shalimar to the light Aqua Allegoria line, and how to wear your shortlist before you buy a full bottle.
+- [The best Jo Malone perfume for women and men, by style](https://10ml.com/guides/best-jo-malone-perfumes): Eleven Jo Malone London scents grouped by style, from salty and fresh to dark and spiced, plus the pairings worth trying and how to wear two small decants before you buy a bottle.
+- [The best Kilian perfumes for women and men, by style](https://10ml.com/guides/best-kilian-perfumes): Twelve Kilian perfumes grouped into boozy, dark and gourmand, sweet and powdery, and white floral, with how each one moves from first spray to dry-down and how to wear it before a full bottle.
+- [The best Louis Vuitton perfumes: 12 by style, 3 to try first](https://10ml.com/guides/best-louis-vuitton-perfumes): Twelve Louis Vuitton perfumes grouped by style, from citrus and sea to rose and dark oud, with a first three to wear in a small size before you buy a full bottle.
+- [Best Parfums de Marly perfumes 2026: 12 picks by style](https://10ml.com/guides/best-parfums-de-marly-perfumes): Twelve Parfums de Marly perfumes grouped by style, from bright citrus for the office to fruity roses and dark evening woods, and how to wear one before you commit.
+- [Tom Ford perfume: which to try first, for men and women](https://10ml.com/guides/best-tom-ford-perfumes): The best Tom Ford perfume for men depends on the mood you want. Twelve Tom Ford perfumes across the signature line and Private Blend, compared by style and price per ml, and a first three to wear before a full bottle.
+- [The best Xerjoff perfumes by style, and which three to try first](https://10ml.com/guides/best-xerjoff-perfumes): Twelve Xerjoff perfumes sorted by style, from Erba Pura and Torino21 to Naxos and Alexandria II, plus the three to wear first before you choose a bottle.
+- [Christmas perfume gifts: give three to try, not one guessed bottle](https://10ml.com/guides/christmas-perfume-gifts): A full bottle is a guess when you cannot smell it first. How to read someone's taste from what they already wear, and sixteen perfumes to build a gift of three small bottles.
+- [Clean perfumes: citrus, soapy, floral and skin-close scents to try](https://10ml.com/guides/clean-perfumes): Clean is not one smell. Nine clean perfumes grouped into four styles, citrus, soapy, floral and white musk, and how to find the one your nose calls clean.
+- [The best coconut perfumes: creamy, tropical or gourmand](https://10ml.com/guides/coconut-perfumes): Coconut in perfume goes far beyond sun cream. Twelve coconut perfumes grouped by style, green, tropical, creamy floral, gourmand and boozy, and how to wear yours before you buy the bottle.
+- [What does Delina smell like? Delina vs Valaya and Delina Exclusif, by their notes](https://10ml.com/guides/delina-vs-valaya): Delina is rose and litchi, Delina Exclusif adds oud and amber, and Valaya is white musk and peach. How the three Parfums de Marly scents differ, and how to choose before you buy a bottle.
+- [Does perfume go off? Shelf life, signs it has turned, and how to store it](https://10ml.com/guides/does-perfume-expire): Perfume does go off, but slowly: there is no hard use-by date, and heat, light and air do the damage. How to tell a bottle has turned, how to store it, and why a small bottle never gets old.
+- [Eau de parfum vs eau de toilette (and extrait): what changes, and which strength to try](https://10ml.com/guides/eau-de-parfum-vs-eau-de-toilette): Eau de parfum carries more perfume oil than eau de toilette, and extrait de parfum more again, but one name on two strengths often hides two formulas. What each label means, and how to wear both before you choose.
+- [Eros vs Eros Flame (and Dylan Blue): how the Versace scents differ, by their notes](https://10ml.com/guides/eros-vs-eros-flame): Eros is mint over vanilla, Eros Flame is citrus and pepper over warm wood, and Dylan Blue is watery and clean. How the three Versace scents differ, and how to choose one without smelling it first.
+- [Chypre perfume and the other fragrance families, explained](https://10ml.com/guides/fragrance-families-explained): What a chypre perfume is, how a fougère differs, and what the seven fragrance families mean, with one or two perfumes from each family to wear before you choose.
+- [Guidance vs Guidance 46: how the two Amouage perfumes differ](https://10ml.com/guides/guidance-vs-guidance-46): Guidance and Guidance 46 share a pear, hazelnut and osmanthus core. The later one adds bitter almond, rose water and a drier woody base. Here is how to choose between them without smelling either.
+- [How to find your signature scent in three steps](https://10ml.com/guides/how-to-find-your-signature-scent): Find your style with three small decants, live with two finalists for a few weeks, then keep the one you miss when it is gone. A shortlist of twelve to start from.
+- [The best jasmine perfumes: sambac, fresh, sweet and dark](https://10ml.com/guides/jasmine-perfumes): Jasmine can be green and bright, warm and nutty, sugary or smoky. Twelve jasmine perfumes grouped by how the flower shows up, and how sambac differs from jasmine in a blend.
+- [Long-lasting perfumes for women, by what the community votes](https://10ml.com/guides/long-lasting-perfumes-for-women): Fourteen long-lasting perfumes for women, grouped by style, with each one's community longevity vote stated plainly, and how to see the staying power on your own skin before you buy a bottle.
+- [Ombre Leather vs Tuscan Leather: the soft one and the loud one](https://10ml.com/guides/ombre-leather-vs-tuscan-leather): Two Tom Ford leathers, a decade apart. Ombre Leather is the smoother, quieter one; Tuscan Leather is rawer, fruitier and louder. Here is how they differ and how to choose.
+- [What does Oud Wood smell like? Oud Wood vs Tobacco Vanille, note by note](https://10ml.com/guides/oud-wood-vs-tobacco-vanille): Oud Wood is dry wood and soft spice; Tobacco Vanille is tobacco leaf wrapped in vanilla and cacao. Here is how the two Tom Ford scents differ, and how to settle it with two small decants.
+- [Perfume for older women: 12 picks for women over 60](https://10ml.com/guides/perfume-for-older-women): There is no age limit on any scent. Twelve perfumes for older women, from soft and clean to warm and sweet, and how to try them on skin before choosing a bottle.
+- [Pistachio perfumes 2026: 8 to try, from green to gourmand](https://10ml.com/guides/pistachio-perfumes): Pistachio can smell green and airy or sweet and creamy. Eight pistachio perfumes grouped by style, and why a 3ml is the smart first step with a note this new.
+- [The best rose perfumes, grouped by the note that sits beside the rose](https://10ml.com/guides/rose-perfumes): Rose changes character with its partner. Fourteen rose perfumes grouped by that partner, from oud and fruit to musk, vanilla and spice, and how to wear yours before buying a bottle.
+- [Safe blind buy perfumes: easy styles to wear before you buy the bottle](https://10ml.com/guides/safe-blind-buy-perfumes): The safest blind buy perfume is one you wear first. Twelve easy-to-wear perfumes grouped by style, from fresh to warm, and how to try each one before a full bottle.
+- [Sauvage or Sauvage Elixir: which should you choose?](https://10ml.com/guides/sauvage-vs-sauvage-elixir): Sauvage is bright pepper and bergamot over ambroxan; the Elixir is warm spice, licorice and sandalwood. Here are both, the two other Sauvages, and a simple way to choose with two decants.
+- [Stronger With You Intensely or Absolutely: which is better?](https://10ml.com/guides/stronger-with-you-intensely-vs-absolutely): Intensely is toffee, cinnamon and suede; Absolutely is rum, davana and chestnut. Five Stronger With You perfumes compared note by note, and which two to wear side by side.
+- [The best tobacco perfumes by style: sweet, smoky and dry](https://10ml.com/guides/tobacco-perfumes): Tobacco in perfume smells of the dried leaf, honeyed and warm, not of an ashtray. Twelve tobacco perfumes in three styles, sweet, smoky and dry, and how to wear one before you buy the bottle.
+- [Unisex perfumes worth sharing: scents that sit well on both of you](https://10ml.com/guides/unisex-perfumes-worth-sharing): Fourteen unisex perfumes a couple can share, grouped from fresh and green to warm and dark, and how to wear one together before anyone buys a full bottle.
+- [Wedding perfume: 12 picks for the bride and groom, by season](https://10ml.com/guides/wedding-perfume): The right wedding perfume suits the season, the hour and a day of hugs. Twelve perfumes grouped by the kind of wedding they fit, and how to wear your shortlist before the day.
+- [What does bergamot smell like, and why is it in almost every perfume?](https://10ml.com/guides/what-does-bergamot-smell-like): Bergamot smells like a softer, more floral lemon with a faint tea-like edge. Here is how it reads in a cologne, a fougère and a gourmand, and why the part you smell first is the part that leaves first.
+- [What does iris smell like? Iris perfume, from powder to earth](https://10ml.com/guides/what-does-iris-smell-like): Iris smells powdery, buttery and cool, with an earthy root underneath. What orris is, why some people call it lipstick, and twelve iris perfumes grouped by style.
+- [What does La Vie Est Belle smell like? The notes, and nine perfumes that share them](https://10ml.com/guides/what-does-la-vie-est-belle-smell-like): La Vie Est Belle is iris wrapped in praline, over vanilla, tonka bean and patchouli. How it moves from first spray to dry-down, and nine perfumes that share its notes, from sweeter to drier to lighter.
+- [What does patchouli smell like? Earthy, sweet or dark](https://10ml.com/guides/what-does-patchouli-smell-like): Patchouli smells earthy, woody and faintly sweet, and it hides in far more perfumes than you think. Twelve that show its sides, from sugary to fresh.
+- [What does sandalwood smell like? Creamy, milky and dry woods explained](https://10ml.com/guides/what-does-sandalwood-smell-like): Sandalwood smells soft, creamy and gently sweet, with a dry woody edge. What surrounds it decides the rest. Twelve perfumes, grouped by the kind of sandalwood they show.
+- [What does vetiver smell like? Earthy, green and smoky](https://10ml.com/guides/what-does-vetiver-smell-like): Vetiver smells earthy, green and dry, with a woody edge and sometimes smoke. What the note is, why fresh scents rely on it, and twelve perfumes that show it from clean to smoky.
+- [What does amber smell like? Amber in perfume, explained](https://10ml.com/guides/what-is-amber-in-perfume): Amber in perfume is a warm, sweet, resinous accord, not a single ingredient. What it is made of, what it smells like, and twelve perfumes from sheer to dense.
+- [What is oud? What oud perfume smells like, and sixteen to try from soft to dark](https://10ml.com/guides/what-is-oud): Oud is the dark resin that forms inside agarwood, and in perfume it smells woody, smoky and resinous. What it is, what it smells like, and sixteen oud perfumes laid out as a ladder from soft to dark.
+- [What is tonka bean, and what does it smell like in perfume?](https://10ml.com/guides/what-is-tonka-bean): Tonka bean is the warm, sweet note of vanilla, almond and hay behind many men's scents. What it is, how it smells, and twelve perfumes where it leads.
+- [Where to spray perfume, and how many sprays to use](https://10ml.com/guides/where-to-spray-perfume): Warm skin at the throat, neck, chest and inner wrists, then fewer sprays than you think. Where to put perfume, how many sprays suit its strength and the day ahead, and what that means for each size.
+- [White musk perfume: what musk smells like, and 19 to try](https://10ml.com/guides/white-musk-perfumes): White musk smells clean, soft and close to the skin. What musk really smells like, the three kinds you will meet, and nineteen musk perfumes grouped by style, from clean white musk to warmer musky perfumes.
+- [The best winter fragrance for men: warm scents for the office and the evening](https://10ml.com/guides/winter-colognes-for-men): Fourteen men's winter fragrances chosen by community season votes, split into warm scents for the office and richer ones for the evening, and how to wear one before you buy the bottle.
+- [Winter fragrances for women: the 18 best for 2026](https://10ml.com/guides/winter-perfumes-for-women): Eighteen winter fragrances for women, grouped by style from resin and incense to praline, dark fruit, warm white flowers and elegant evening scents, chosen by community season votes, with how to wear a rich scent without overdoing it.
+- [Best perfume for men 2026: 23 picks, classic to new](https://10ml.com/guides/best-perfumes-for-men): The best perfume for men is the one in the style you already reach for. Twenty-three men's perfumes by style, compared side by side, an "if you wear this, try that" ladder, and what aftershave means.
+- [Best perfume for women 2026: 23 picks, classic to new](https://10ml.com/guides/best-perfumes-for-women): The best perfume for women is the one in the style you already love. Twenty-three women's perfumes grouped by style, classics and newer launches, compared side by side, and a three-decant way to find yours before you buy a bottle.
+- [The best vanilla perfumes, by the kind of vanilla you like](https://10ml.com/guides/best-vanilla-perfumes): Vanilla is not one smell. Seventeen vanilla perfumes grouped by style, boozy, ambery, gourmand, creamy, powdery and fresh, compared side by side, with picks for men and women and a way to find yours.
+- [How long does a 10ml perfume last? About 200 sprays](https://10ml.com/guides/how-long-does-a-10ml-perfume-last): About 200 sprays, which is roughly two months at three sprays a day. Here is the maths for every routine, and what decides how long the scent itself stays on your skin.
+- [The best long-lasting perfumes for men, and how to test them first](https://10ml.com/guides/best-long-lasting-perfumes-for-men): Ten men's and shared fragrances with real staying power, from Aventus to Oud Wood, and why a week with a 10ml decant tells you more about longevity than anything you read online.
+- [Niche vs designer perfume: what is the difference?](https://10ml.com/guides/niche-vs-designer-perfume): Designer fragrances come from fashion houses; niche fragrances come from houses that only make perfume. Here is what that changes in the bottle, where the lines blur, and how to compare the two fairly.
+- [Perfume layering: a simple guide, with pairings to try](https://10ml.com/guides/perfume-layering-guide): Layering two fragrances can give you a scent nobody else wears. These are the rules that make it work, the mistakes that make it muddy, and five pairings built from real notes.
+- [How to make perfume last longer: 11 tips that work](https://10ml.com/guides/how-to-make-perfume-last-longer): If your perfume disappears by lunchtime, the fix is usually in how you apply and store it, not in buying a stronger bottle. Eleven habits that make a real difference.
+- [The best summer fragrances: fresh scents that hold up in the heat](https://10ml.com/guides/best-summer-fragrances): Heat changes how a perfume behaves. Twelve fresh fragrances that stay pleasant on hot days, from salty and green to citrus and fig, and how to wear them well.
+
+## Perfume dupe guides (we sell only the originals)
+
+- [Perfume dupe guides on 10ML](https://10ml.com/guides#perfume-dupes): 10ML sells only original perfumes. The dupes in these guides are other brands’ perfumes.
+- [Baccarat Rouge 540 Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/baccarat-rouge-540-dupes)
+- [Tom Ford Lost Cherry Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/lost-cherry-dupes)
+- [Prada Paradoxe Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/prada-paradoxe-dupes)
+- [Creed Aventus Dupes 2026: 4 Clones vs the Original](https://10ml.com/guides/creed-aventus-dupes)
+- [Louis Vuitton Imagination Dupes 2026: 7 Clones Compared](https://10ml.com/guides/louis-vuitton-imagination-dupes)
+- [Santal 33 Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/santal-33-dupes)
+- [Ombre Nomade Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/ombre-nomade-dupes)
+- [Black Opium Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/black-opium-dupes)
+- [YSL Libre Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/ysl-libre-dupes)
+- [Tom Ford Black Orchid Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/black-orchid-dupes)
+- [Burberry Goddess Dupes 2026: 5 Clones vs the Original](https://10ml.com/guides/burberry-goddess-dupes)
+- [Dior Sauvage Dupes 2026: 5 Clones vs the Original](https://10ml.com/guides/dior-sauvage-dupes)
+- [Kayali Vanilla 28 Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/kayali-vanilla-28-dupes)
+- [Tom Ford Tobacco Vanille Dupes 2026: 6 Clones Compared](https://10ml.com/guides/tobacco-vanille-dupes)
+- [La Vie Est Belle Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/la-vie-est-belle-dupes)
+- [Tom Ford Oud Wood Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/oud-wood-dupes)
+- [Tom Ford Ombre Leather Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/ombre-leather-dupes)
+- [Delina Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/delina-dupes)
+- [Carolina Herrera Good Girl Dupes 2026: 7 Clones Compared](https://10ml.com/guides/good-girl-dupes)
+- [Blue Talisman Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/blue-talisman-dupes)
+- [Tom Ford Vanilla Sex Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/vanilla-sex-dupes)
+- [Chloé Eau de Parfum Dupes 2026: 6 Picks Compared](https://10ml.com/guides/chloe-dupes)
+- [Erba Pura Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/erba-pura-dupes)
+- [Amouage Guidance 46 Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/amouage-guidance-46-dupes)
+- [Le Labo Another 13 Dupes 2026: 5 Picks Compared](https://10ml.com/guides/another-13-dupes)
+- [Valaya Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/valaya-dupes)
+- [Byredo Gypsy Water Dupes 2026: 7 Picks Compared](https://10ml.com/guides/gypsy-water-dupes)
+- [Amouage Guidance Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/amouage-guidance-dupes)
+- [Oud Satin Mood Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/oud-satin-mood-dupes)
+- [Sauvage Elixir Dupes 2026: 4 Clones vs the Original](https://10ml.com/guides/sauvage-elixir-dupes)
+- [Versace Eros Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/versace-eros-dupes)
+- [Initio Side Effect Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/initio-side-effect-dupes)
+- [Parfums de Marly Layton Dupes 2026: 6 Clones Compared](https://10ml.com/guides/layton-dupes)
+- [Stronger With You Intensely Dupes 2026: 6 Clones Compared](https://10ml.com/guides/stronger-with-you-intensely-dupes)
+- [Amouage Reflection Man Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/amouage-reflection-man-dupes)
+- [Mojave Ghost Dupes 2026: 6 Picks Compared](https://10ml.com/guides/mojave-ghost-dupes)
+- [Byredo Blanche Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/byredo-blanche-dupes)
+- [Hypnotic Poison Dupes 2026: 5 Clones vs the Original](https://10ml.com/guides/hypnotic-poison-dupes)
+- [Tom Ford Noir Extreme Dupes 2026: 6 Picks vs a 10ml Decant](https://10ml.com/guides/noir-extreme-dupes)
+- [By the Fireplace Dupes 2026: 7 Clones and What Each Keeps](https://10ml.com/guides/by-the-fireplace-dupes)
+- [Delina Exclusif Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/delina-exclusif-dupes)
+- [Creed Virgin Island Water Dupes 2026: 6 Picks Compared](https://10ml.com/guides/virgin-island-water-dupes)
+- [Kilian Angels' Share Dupes 2026: 5 Picks Compared](https://10ml.com/guides/angels-share-dupes)
+- [Armani Si Dupes 2026: 6 Cheaper Alternatives Compared](https://10ml.com/guides/armani-si-dupes)
+- [YSL Y Eau de Parfum Dupes 2026: 5 Clones Compared](https://10ml.com/guides/ysl-y-dupes)
+- [Armani Code Dupes 2026: 6 Picks Compared](https://10ml.com/guides/armani-code-dupes)
+- [MFK Grand Soir Dupes 2026: 6 Clones Compared](https://10ml.com/guides/grand-soir-dupes)
+- [Pacific Chill Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/louis-vuitton-pacific-chill-dupes)
+- [Narciso Rodriguez For Her Dupes 2026: 6 Clones Compared](https://10ml.com/guides/narciso-rodriguez-for-her-dupes)
+- [Jo Malone Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/jo-malone-dupes)
+- [Tom Ford Soleil Blanc Dupes 2026: 6 Clones Compared](https://10ml.com/guides/soleil-blanc-dupes)
+- [Tom Ford Bitter Peach Dupes 2026: 6 Clones Compared](https://10ml.com/guides/bitter-peach-dupes)
+- [Dior Homme Intense Dupes 2026: 5 Clones vs the Original](https://10ml.com/guides/dior-homme-intense-dupes)
+- [Tom Ford Neroli Portofino Dupes 2026: 6 Picks Compared](https://10ml.com/guides/neroli-portofino-dupes)
+- [Le Male Dupes 2026: 8 Cheaper Alternatives Compared](https://10ml.com/guides/le-male-dupes)
+- [Mugler Alien Dupes 2026: 6 Picks Compared](https://10ml.com/guides/mugler-alien-dupes)
+- [Xerjoff Naxos Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/xerjoff-naxos-dupes)
+- [Creed Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/creed-dupes)
+- [Gentle Fluidity Gold Dupes 2026: 6 Picks Compared](https://10ml.com/guides/gentle-fluidity-gold-dupes)
+- [Gucci Bloom Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/gucci-bloom-dupes)
+- [Initio Dupes 2026: 7 Cheaper Alternatives Compared](https://10ml.com/guides/initio-dupes)
+- [Althaïr Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/althair-dupes)
+- [Montale Arabians Tonka Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/arabians-tonka-dupes)
+- [Light Blue Dupes 2026: 6 Picks Compared](https://10ml.com/guides/light-blue-dupes)
+- [Hermès Dupes 2026: 6 Clones vs the Originals](https://10ml.com/guides/hermes-dupes)
+- [Love Don't Be Shy Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/love-dont-be-shy-dupes)
+- [Intense Cafe Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/intense-cafe-dupes)
+- [Alexandria II Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/alexandria-ii-dupes)
+- [Amouage Dupes 2026: 7 Clones vs the Original](https://10ml.com/guides/amouage-dupes)
+- [Bianco Latte Dupes 2026: 6 Picks Compared](https://10ml.com/guides/bianco-latte-dupes)
+- [Le Gemme Tygar Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/bvlgari-tygar-dupes)
+- [Dior Fahrenheit Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/dior-dupes)
+- [Flowerbomb Dupes 2026: 7 Floral Clones and the Real Thing](https://10ml.com/guides/flowerbomb-dupes)
+- [Gentle Fluidity Silver Dupes 2026: 6 Picks Compared](https://10ml.com/guides/gentle-fluidity-silver-dupes)
+- [Gris Dior Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/gris-dior-dupes)
+- [Afternoon Swim Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/louis-vuitton-afternoon-swim-dupes)
+- [Louis Vuitton Dupes 2026: 8 Clones vs the Original](https://10ml.com/guides/louis-vuitton-dupes)
+- [Symphony Dupes 2026: 6 Cheaper Alternatives Compared](https://10ml.com/guides/louis-vuitton-symphony-dupes)
+- [Vanilla Powder Dupes 2026: 6 Clones vs the Original](https://10ml.com/guides/vanilla-powder-dupes)
+- [Dupe or original decant? What 267 price pairs show in 2026](https://10ml.com/guides/dupe-or-original-decant)
+- [Tom Ford Dupes 2026: The Leading Clones for 10 Perfumes](https://10ml.com/guides/tom-ford-dupes)
+
+## Editorial
+
+- [Victoria Frolova](https://10ml.com/authors/victoria-frolova): marketing editor profile and attribution
+- [Michael Edwards](https://10ml.com/authors/michael-edwards): marketing editor profile and attribution
+- [Luca Turin](https://10ml.com/authors/luca-turin): marketing editor profile and attribution
+- [Editorial policy](https://10ml.com/editorial-policy): who writes the guides, how each one is built from a fact sheet and checked against the catalogue, and how guides are dated and corrected
+- [About our decants](https://10ml.com/guides/about-our-decants): how decants are filled from the original bottle, what arrives, delivery and refunds
+- [Corrections](https://10ml.com/editorial-policy#corrections): report a mistake in a guide to contact@10ml.com
+
+## Help
+
+- [10ML at a glance](https://10ml.com/ai): sizes, catalogue, delivery countries, returns and contact in one page
+- [FAQ](https://10ml.com/faq): sizes, ordering, payment, delivery and returns
+- [About 10ML](https://10ml.com/about)
+- [Contact](https://10ml.com/contact)
+- [Partner programme](https://10ml.com/partners): earn a commission on the orders you refer with your own link and code, paid every two weeks
+- [Browser extension](https://10ml.com/browser-extension): the free 10ML Perfume Finder browser extension for trying any perfume before the full bottle: on 113 perfume sites (Fragrantica, Parfumo, Notino, Douglas and more) it shows the 10ML decant price (3ml, 10ml, 30ml) of the perfume on the page and similar originals; Chrome, Edge, Firefox (also Android) and Opera; 10 languages; free, no account; nothing browsed leaves the browser; privacy policy included
+- [Free perfume API and MCP server](https://10ml.com/perfume-api): developer docs for 10ML Perfume Finder, the free perfume MCP server and fragrance API: MCP endpoint, REST /api/v1 with OpenAPI 3.1, setup for Claude, ChatGPT, Cursor, VS Code and Gemini CLI, example answers and limits; no API key
+- [Perfume MCP servers compared](https://10ml.com/perfume-mcp-servers-compared): a 40-question benchmark of five perfume MCP servers that answer without an API key (20 October 2026): accuracy, latency, calls per question, tools and method, with CSV and JSON data
+- [Price per ml calculator](https://10ml.com/perfume-price-per-ml-calculator): free perfume price per ml calculator: the cost per ml and per spray, sprays per bottle and how long a bottle lasts, worked out from the numbers you enter; embeddable
+- [Perfume gift finder](https://10ml.com/perfume-gift-finder): free tool: four quick questions about the person you are buying for, then three 3 ml perfumes from three families (fresh, warm, sweet), with a written table of nine safe picks
+- [How long a bottle of perfume lasts](https://10ml.com/how-long-does-a-bottle-of-perfume-last): free tool: how long a bottle of perfume lasts at your pace, how many sprays and wears it holds and what each wear costs, worked out from the numbers you enter; embeddable
+- [Press](https://10ml.com/press): 10ML press releases, with the outlets that published them, and the press contact
+
+## Careers
+
+- [Careers at 10ML](https://10ml.com/careers): open roles in Dortmund and remote across the EU; applications to jobs@10ml.com
+- [Head of Growth, Europe](https://10ml.com/careers/head-of-growth-europe): Dortmund, Germany, or remote within the EU, €150,000 – €210,000 a year, plus bonus
+- [Senior Performance Marketing Manager (Meta & Google Ads)](https://10ml.com/careers/senior-performance-marketing-manager): Dortmund, Germany, or remote within the EU, €95,000 – €135,000 a year, plus bonus
+- [CRM & Lifecycle Marketing Lead](https://10ml.com/careers/crm-lifecycle-marketing-lead): Dortmund, Germany, or remote within the EU, €95,000 – €130,000 a year, plus bonus
+- [Multilingual Content & Fragrance Editorial Lead](https://10ml.com/careers/multilingual-content-fragrance-editorial-lead): Dortmund, Germany, or remote within the EU, €85,000 – €120,000 a year, plus bonus
+- [Senior Full-Stack Engineer, E-commerce (TypeScript, Next.js)](https://10ml.com/careers/senior-full-stack-engineer-ecommerce): Dortmund, Germany, or remote within the EU, €110,000 – €155,000 a year, plus bonus
+- [Data & Analytics Lead](https://10ml.com/careers/data-analytics-lead): Dortmund, Germany, or remote within the EU, €110,000 – €150,000 a year, plus bonus
+- [Head of Customer Experience](https://10ml.com/careers/head-of-customer-experience): Dortmund, Germany, or remote within the EU, €90,000 – €125,000 a year, plus bonus
+- [Multilingual Customer Care Specialist (German, French, Italian, Spanish, Polish or Dutch)](https://10ml.com/careers/multilingual-customer-care-specialist): Remote within the EU, or Dortmund, Germany, €48,000 – €62,000 a year, plus bonus
+- [Perfume Decanting & Fulfilment Specialist](https://10ml.com/careers/perfume-decanting-fulfilment-specialist): Dortmund, Germany, on-site, €42,000 – €54,000 a year, plus bonus
+- [Supply Chain & Inventory Manager (Fragrance)](https://10ml.com/careers/supply-chain-inventory-manager): Dortmund, Germany, hybrid, €85,000 – €115,000 a year, plus bonus
+- [Brand Partnerships & Affiliate Manager](https://10ml.com/careers/brand-partnerships-affiliate-manager): Dortmund, Germany, or remote within the EU, €80,000 – €110,000 a year, plus bonus
+
+## Policies
+
+- [Shipping policy](https://10ml.com/shipping-policy): delivery countries, dispatch times and costs
+- [Returns and refunds](https://10ml.com/return-policy): the 30-day money-back guarantee and the right of withdrawal
+- [Terms of service](https://10ml.com/terms-of-service)
+- [Privacy policy](https://10ml.com/privacy-policy)
+- [Cancellation policy](https://10ml.com/cancellation-policy)
+- [Legal notice](https://10ml.com/legal-notice)
+
+## Optional
+
+- [Sitemap](https://10ml.com/sitemap-index.xml)

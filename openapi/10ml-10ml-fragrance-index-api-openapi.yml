@@ -1,0 +1,2125 @@
+openapi: 3.2.0
+info:
+  title: 10ML Fragrance Index API
+  version: 2.3.4
+  description: 'Free perfume API and fragrance notes API from the 10ML Fragrance Index: 5,400+ perfumes and 249 houses with note pyramids, accords, families, similar scents, alternatives from other houses, notes explained and guides, curated by 10ML''s fragrance editors. The same answers as the 10ML Perfume Finder MCP server at https://mcp.10ml.com/mcp. No API key, no sign-up, read-only JSON over GET.'
+  contact:
+    name: 10ML Team
+    url: https://10ml.com
+servers:
+- url: https://mcp.10ml.com
+tags:
+- name: 10ML Fragrance Index
+  description: Perfume and fragrance notes API, curated by 10ML's fragrance editors
+paths:
+  /api/v1/perfumes:
+    get:
+      operationId: searchPerfumes
+      summary: Search perfumes
+      description: 'Search the 10ML Fragrance Index for perfumes by name, house, notes, accords, family, audience, season, occasion or style. Natural language works: ''fresh citrus summer scent for men'' is understood. Set iconic to true for only the editors'' iconic, era-defining classics (''must-know perfumes for her'', ''iconic winter scents''). Use when someone describes what they want or names a perfume or house and you need matching perfumes. Not for the full profile of one known perfume (use get_perfume), not for ''something like X'' (use find_similar_perfumes) and not for dupes or alternatives to a famous perfume (use find_perfume_alternatives). Returns ranked perfumes with house, year, family, accords, key notes, an editorial character line and 10ml.com links.'
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: q
+        in: query
+        required: false
+        description: 'Free text: a perfume name, house, notes or mood. Examples: "fresh citrus summer for men", "Tom Ford tobacco", "vanilla gourmand for winter"'
+        schema:
+          type: string
+          maxLength: 200
+      - name: house
+        in: query
+        required: false
+        description: 'Only perfumes from this house. Examples: "Dior", "Maison Francis Kurkdjian", "MFK", "YSL"'
+        schema:
+          type: string
+          maxLength: 80
+      - name: notes_include
+        in: query
+        required: false
+        description: 'Every listed note must be present. Examples: ["oud","rose"], ["vanilla"] Comma-separated list.'
+        schema:
+          type: string
+      - name: notes_exclude
+        in: query
+        required: false
+        description: 'None of these notes may be present. Example: ["patchouli"] Comma-separated list.'
+        schema:
+          type: string
+      - name: accords
+        in: query
+        required: false
+        description: 'Accords that must be present. Examples: ["woody","sweet"], ["fresh","aquatic"] Comma-separated list.'
+        schema:
+          type: string
+      - name: family
+        in: query
+        required: false
+        description: 'Fragrance family: fougere, chypre, oriental-amber, gourmand, aquatic, aromatic, woody, floral, white-floral, fruity, citrus, green, leather, oud, musky, powdery, spicy, tobacco-boozy, smoky-incense, aldehydic-floral, mineral, fresh-spicy-woody, tea-zen. Also accepts words like "amber" or "citrus".'
+        schema:
+          type: string
+          maxLength: 40
+      - name: gender
+        in: query
+        required: false
+        description: Audience the perfume is marketed to. men and women also include unisex perfumes.
+        schema:
+          type: string
+          enum:
+          - men
+          - women
+          - unisex
+      - name: season
+        in: query
+        required: false
+        description: Season the perfume suits (fall is accepted in text queries as autumn).
+        schema:
+          type: string
+          enum:
+          - spring
+          - summer
+          - autumn
+          - winter
+      - name: occasion
+        in: query
+        required: false
+        description: 'Occasion the perfume suits: daytime, office, casual, evening, date night or special occasion.'
+        schema:
+          type: string
+          enum:
+          - daytime
+          - office
+          - casual
+          - evening
+          - date night
+          - special occasion
+      - name: style
+        in: query
+        required: false
+        description: 'A style word: aquatic, boozy, clean, creamy, dark, floral, fresh, citrusy, fruity, gourmand, green, leathery, musky, powdery, sensual, smoky, spicy, sweet, woody.'
+        schema:
+          type: string
+          enum:
+          - aquatic
+          - boozy
+          - clean
+          - creamy
+          - dark
+          - floral
+          - fresh
+          - citrusy
+          - fruity
+          - gourmand
+          - green
+          - leathery
+          - musky
+          - powdery
+          - sensual
+          - smoky
+          - spicy
+          - sweet
+          - woody
+      - name: iconic
+        in: query
+        required: false
+        description: true = only the editors' iconic, era-defining classics (works with every other filter, and without a query)
+        schema:
+          type: boolean
+      - name: limit
+        in: query
+        required: false
+        description: How many results per page (1-20, default 8).
+        schema:
+          default: 8
+          type: integer
+          minimum: 1
+          maximum: 20
+      - name: cursor
+        in: query
+        required: false
+        description: next_cursor from the previous page; omit for the first page.
+        schema:
+          type: string
+          maxLength: 64
+      - name: format
+        in: query
+        required: false
+        description: concise (default) or detailed (adds note pyramid, seasons, occasions, longevity, projection).
+        schema:
+          default: concise
+          type: string
+          enum:
+          - concise
+          - detailed
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total:
+                    type: number
+                    description: How many results matched in all
+                  next_cursor:
+                    description: Pass as cursor to get the next page; absent on the last page
+                    type: string
+                  message:
+                    description: Guidance when the result is empty, partial or needs a follow-up tool
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: Stable Fragrance Index id, usable with get_perfume and find_similar_perfumes
+                        name:
+                          type: string
+                        house:
+                          type: string
+                        year:
+                          description: Launch year when known
+                          type: number
+                        gender:
+                          type: string
+                          enum:
+                          - men
+                          - women
+                          - unisex
+                        family:
+                          type: string
+                          description: Fragrance family, e.g. "amber floral"
+                        accords:
+                          type: array
+                          items:
+                            type: string
+                          description: Main accords, strongest first
+                        key_notes:
+                          type: array
+                          items:
+                            type: string
+                          description: The defining notes (empty when no pyramid is published)
+                        character:
+                          type: string
+                          description: One-sentence description by 10ML's fragrance editors
+                        links:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              type:
+                                type: string
+                                enum:
+                                - try
+                                - guide
+                                - note
+                              title:
+                                type: string
+                              url:
+                                type: string
+                                description: A 10ml.com link in the requested locale
+                            required:
+                            - type
+                            - title
+                            - url
+                            additionalProperties: false
+                          description: 1-3 relevant 10ml.com links
+                        profile:
+                          type: string
+                          enum:
+                          - full
+                          - core
+                        concentration:
+                          type: string
+                        pyramid:
+                          type: object
+                          properties:
+                            top:
+                              type: array
+                              items:
+                                type: string
+                            heart:
+                              type: array
+                              items:
+                                type: string
+                            base:
+                              type: array
+                              items:
+                                type: string
+                          required:
+                          - top
+                          - heart
+                          - base
+                          additionalProperties: false
+                        seasons:
+                          type: array
+                          items:
+                            type: string
+                        occasions:
+                          type: array
+                          items:
+                            type: string
+                        styles:
+                          type: array
+                          items:
+                            type: string
+                        longevity:
+                          description: 1 (short) to 5 (very long)
+                          type: number
+                        projection:
+                          description: 1 (skin scent) to 5 (fills a room)
+                          type: number
+                        perfumers:
+                          type: array
+                          items:
+                            type: string
+                        other_versions:
+                          description: Ids of other concentrations or flankers of the same perfume in the index
+                          type: array
+                          items:
+                            type: string
+                      required:
+                      - id
+                      - name
+                      - house
+                      - gender
+                      - family
+                      - accords
+                      - key_notes
+                      - character
+                      - links
+                      - profile
+                      additionalProperties: false
+                  filters:
+                    type: object
+                    propertyNames:
+                      type: string
+                    additionalProperties:
+                      type: string
+                    description: The filters applied, including ones read from the query text
+                  relaxed:
+                    type: boolean
+                    description: True when no perfume matched every word and the closest partial matches are shown
+                  source:
+                    type: string
+                required:
+                - total
+                - results
+                - filters
+                - relaxed
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/perfumes/{id}:
+    get:
+      operationId: getPerfume
+      summary: Get one perfume
+      description: 'The full Fragrance Index profile of one perfume: house, launch year, audience, family, accords, note pyramid (top, heart and base notes), best seasons and occasions, longevity, projection and perfumers (full profiles), the editors'' character description, five similar perfumes, editorial alternatives from other houses when they exist, related 10ML guides and links. Use when you know which perfume is meant and need facts about it (''tell me about Aventus'', ''what notes are in Delina'', ''what does Baccarat Rouge 540 smell like''). Not for browsing (use search_perfumes), not for comparing two or more (use compare_perfumes). Unknown names return the closest matches.'
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: A perfume by name, optionally with its house, e.g. "Baccarat Rouge 540", "Dior Sauvage", "Delina". An id from another tool also works, e.g. "creed-aventus".
+        schema:
+          type: string
+      - name: house
+        in: query
+        required: false
+        description: 'House, when the name alone is ambiguous. Example: "Creed"'
+        schema:
+          type: string
+          maxLength: 80
+      - name: format
+        in: query
+        required: false
+        description: concise (default) or detailed (adds note pyramid, seasons, occasions, longevity, projection).
+        schema:
+          default: concise
+          type: string
+          enum:
+          - concise
+          - detailed
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  found:
+                    type: boolean
+                  exact:
+                    type: boolean
+                    description: False when this is a closest-match guess
+                  perfume:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        description: Stable Fragrance Index id, usable with get_perfume and find_similar_perfumes
+                      name:
+                        type: string
+                      house:
+                        type: string
+                      year:
+                        description: Launch year when known
+                        type: number
+                      gender:
+                        type: string
+                        enum:
+                        - men
+                        - women
+                        - unisex
+                      family:
+                        type: string
+                        description: Fragrance family, e.g. "amber floral"
+                      accords:
+                        type: array
+                        items:
+                          type: string
+                        description: Main accords, strongest first
+                      key_notes:
+                        type: array
+                        items:
+                          type: string
+                        description: The defining notes (empty when no pyramid is published)
+                      character:
+                        type: string
+                        description: One-sentence description by 10ML's fragrance editors
+                      links:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            type:
+                              type: string
+                              enum:
+                              - try
+                              - guide
+                              - note
+                            title:
+                              type: string
+                            url:
+                              type: string
+                              description: A 10ml.com link in the requested locale
+                          required:
+                          - type
+                          - title
+                          - url
+                          additionalProperties: false
+                        description: 1-3 relevant 10ml.com links
+                      profile:
+                        type: string
+                        enum:
+                        - full
+                        - core
+                      concentration:
+                        type: string
+                      pyramid:
+                        type: object
+                        properties:
+                          top:
+                            type: array
+                            items:
+                              type: string
+                          heart:
+                            type: array
+                            items:
+                              type: string
+                          base:
+                            type: array
+                            items:
+                              type: string
+                        required:
+                        - top
+                        - heart
+                        - base
+                        additionalProperties: false
+                      seasons:
+                        type: array
+                        items:
+                          type: string
+                      occasions:
+                        type: array
+                        items:
+                          type: string
+                      styles:
+                        type: array
+                        items:
+                          type: string
+                      longevity:
+                        description: 1 (short) to 5 (very long)
+                        type: number
+                      projection:
+                        description: 1 (skin scent) to 5 (fills a room)
+                        type: number
+                      perfumers:
+                        type: array
+                        items:
+                          type: string
+                      other_versions:
+                        description: Ids of other concentrations or flankers of the same perfume in the index
+                        type: array
+                        items:
+                          type: string
+                    required:
+                    - id
+                    - name
+                    - house
+                    - gender
+                    - family
+                    - accords
+                    - key_notes
+                    - character
+                    - links
+                    - profile
+                    additionalProperties: false
+                  house_info:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      country:
+                        type: string
+                      type:
+                        type: string
+                      style:
+                        type: string
+                    required:
+                    - name
+                    - type
+                    - style
+                    additionalProperties: false
+                  similar:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        name:
+                          type: string
+                        house:
+                          type: string
+                        closeness:
+                          type: string
+                          enum:
+                          - very close
+                          - similar vibe
+                          - same spirit
+                        shared_notes:
+                          type: array
+                          items:
+                            type: string
+                        url:
+                          type: string
+                      required:
+                      - id
+                      - name
+                      - house
+                      - closeness
+                      - shared_notes
+                      - url
+                      additionalProperties: false
+                  alternatives:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        house:
+                          type: string
+                        closeness:
+                          type: string
+                          enum:
+                          - very close
+                          - similar vibe
+                          - same spirit
+                        why:
+                          type: string
+                        id:
+                          type: string
+                      required:
+                      - name
+                      - closeness
+                      - why
+                      additionalProperties: false
+                  guides:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                          enum:
+                          - try
+                          - guide
+                          - note
+                        title:
+                          type: string
+                        url:
+                          type: string
+                          description: A 10ml.com link in the requested locale
+                      required:
+                      - type
+                      - title
+                      - url
+                      additionalProperties: false
+                  suggestions:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: Stable Fragrance Index id, usable with get_perfume and find_similar_perfumes
+                        name:
+                          type: string
+                        house:
+                          type: string
+                        year:
+                          description: Launch year when known
+                          type: number
+                        gender:
+                          type: string
+                          enum:
+                          - men
+                          - women
+                          - unisex
+                        family:
+                          type: string
+                          description: Fragrance family, e.g. "amber floral"
+                        accords:
+                          type: array
+                          items:
+                            type: string
+                          description: Main accords, strongest first
+                        key_notes:
+                          type: array
+                          items:
+                            type: string
+                          description: The defining notes (empty when no pyramid is published)
+                        character:
+                          type: string
+                          description: One-sentence description by 10ML's fragrance editors
+                        links:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              type:
+                                type: string
+                                enum:
+                                - try
+                                - guide
+                                - note
+                              title:
+                                type: string
+                              url:
+                                type: string
+                                description: A 10ml.com link in the requested locale
+                            required:
+                            - type
+                            - title
+                            - url
+                            additionalProperties: false
+                          description: 1-3 relevant 10ml.com links
+                        profile:
+                          type: string
+                          enum:
+                          - full
+                          - core
+                        concentration:
+                          type: string
+                        pyramid:
+                          type: object
+                          properties:
+                            top:
+                              type: array
+                              items:
+                                type: string
+                            heart:
+                              type: array
+                              items:
+                                type: string
+                            base:
+                              type: array
+                              items:
+                                type: string
+                          required:
+                          - top
+                          - heart
+                          - base
+                          additionalProperties: false
+                        seasons:
+                          type: array
+                          items:
+                            type: string
+                        occasions:
+                          type: array
+                          items:
+                            type: string
+                        styles:
+                          type: array
+                          items:
+                            type: string
+                        longevity:
+                          description: 1 (short) to 5 (very long)
+                          type: number
+                        projection:
+                          description: 1 (skin scent) to 5 (fills a room)
+                          type: number
+                        perfumers:
+                          type: array
+                          items:
+                            type: string
+                        other_versions:
+                          description: Ids of other concentrations or flankers of the same perfume in the index
+                          type: array
+                          items:
+                            type: string
+                      required:
+                      - id
+                      - name
+                      - house
+                      - gender
+                      - family
+                      - accords
+                      - key_notes
+                      - character
+                      - links
+                      - profile
+                      additionalProperties: false
+                  message:
+                    type: string
+                  source:
+                    type: string
+                required:
+                - found
+                - exact
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/similar:
+    get:
+      operationId: findSimilarPerfumes
+      summary: Find similar perfumes
+      description: 'Find perfumes that smell like one the person already likes, ranked by shared notes, accords and style, each saying exactly what it shares and how close it is (very close, similar vibe, same spirit). Works from a perfume in the index (name and house, or id) OR from free notes/accords for any other perfume. Steer the result: fresher, sweeter, darker, lighter, longer_lasting or more_projection. Use for ''something like Baccarat Rouge 540'', ''like Sauvage but fresher'' or ''a perfume with notes of saffron and cedar''. Not for editorial dupes of a famous perfume from other houses (use find_perfume_alternatives) and not for free-text discovery (use search_perfumes).'
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: perfume
+        in: query
+        required: false
+        description: A perfume by name, optionally with its house, e.g. "Baccarat Rouge 540", "Dior Sauvage", "Delina". Or pass an id from another tool.
+        schema:
+          type: string
+          maxLength: 120
+      - name: house
+        in: query
+        required: false
+        description: House of the perfume when the name alone is ambiguous, e.g. "Maison Francis Kurkdjian"
+        schema:
+          type: string
+          maxLength: 80
+      - name: notes
+        in: query
+        required: false
+        description: 'Known notes of the starting perfume, for perfumes outside the index. Example: ["jasmine","saffron","ambergris","cedar"] Comma-separated list.'
+        schema:
+          type: string
+      - name: accords
+        in: query
+        required: false
+        description: 'Known accords of the starting perfume. Example: ["amber","woody","sweet"] Comma-separated list.'
+        schema:
+          type: string
+      - name: steer
+        in: query
+        required: false
+        description: 'Move away from the starting point in one direction: fresher, sweeter, darker, lighter, longer_lasting (needs a perfume in the index) or more_projection (same).'
+        schema:
+          type: string
+          enum:
+          - fresher
+          - sweeter
+          - darker
+          - lighter
+          - longer_lasting
+          - more_projection
+      - name: gender
+        in: query
+        required: false
+        description: Only return perfumes for this audience (men and women include unisex)
+        schema:
+          type: string
+          enum:
+          - men
+          - women
+          - unisex
+      - name: other_houses_only
+        in: query
+        required: false
+        description: True to leave out perfumes from the same house as the starting perfume
+        schema:
+          default: false
+          type: boolean
+      - name: limit
+        in: query
+        required: false
+        description: How many results per page (1-15, default 8).
+        schema:
+          default: 8
+          type: integer
+          minimum: 1
+          maximum: 15
+      - name: cursor
+        in: query
+        required: false
+        description: next_cursor from the previous page; omit for the first page.
+        schema:
+          type: string
+          maxLength: 64
+      - name: format
+        in: query
+        required: false
+        description: concise (default) or detailed (adds note pyramid, seasons, occasions, longevity, projection).
+        schema:
+          default: concise
+          type: string
+          enum:
+          - concise
+          - detailed
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total:
+                    type: number
+                    description: How many results matched in all
+                  next_cursor:
+                    description: Pass as cursor to get the next page; absent on the last page
+                    type: string
+                  message:
+                    description: Guidance when the result is empty, partial or needs a follow-up tool
+                    type: string
+                  target:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      house:
+                        type:
+                        - string
+                        - 'null'
+                      in_index:
+                        type: boolean
+                      id:
+                        type: string
+                      notes:
+                        type: array
+                        items:
+                          type: string
+                      accords:
+                        type: array
+                        items:
+                          type: string
+                    required:
+                    - name
+                    - house
+                    - in_index
+                    - notes
+                    - accords
+                    additionalProperties: false
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        perfume:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              description: Stable Fragrance Index id, usable with get_perfume and find_similar_perfumes
+                            name:
+                              type: string
+                            house:
+                              type: string
+                            year:
+                              description: Launch year when known
+                              type: number
+                            gender:
+                              type: string
+                              enum:
+                              - men
+                              - women
+                              - unisex
+                            family:
+                              type: string
+                              description: Fragrance family, e.g. "amber floral"
+                            accords:
+                              type: array
+                              items:
+                                type: string
+                              description: Main accords, strongest first
+                            key_notes:
+                              type: array
+                              items:
+                                type: string
+                              description: The defining notes (empty when no pyramid is published)
+                            character:
+                              type: string
+                              description: One-sentence description by 10ML's fragrance editors
+                            links:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  type:
+                                    type: string
+                                    enum:
+                                    - try
+                                    - guide
+                                    - note
+                                  title:
+                                    type: string
+                                  url:
+                                    type: string
+                                    description: A 10ml.com link in the requested locale
+                                required:
+                                - type
+                                - title
+                                - url
+                                additionalProperties: false
+                              description: 1-3 relevant 10ml.com links
+                            profile:
+                              type: string
+                              enum:
+                              - full
+                              - core
+                            concentration:
+                              type: string
+                            pyramid:
+                              type: object
+                              properties:
+                                top:
+                                  type: array
+                                  items:
+                                    type: string
+                                heart:
+                                  type: array
+                                  items:
+                                    type: string
+                                base:
+                                  type: array
+                                  items:
+                                    type: string
+                              required:
+                              - top
+                              - heart
+                              - base
+                              additionalProperties: false
+                            seasons:
+                              type: array
+                              items:
+                                type: string
+                            occasions:
+                              type: array
+                              items:
+                                type: string
+                            styles:
+                              type: array
+                              items:
+                                type: string
+                            longevity:
+                              description: 1 (short) to 5 (very long)
+                              type: number
+                            projection:
+                              description: 1 (skin scent) to 5 (fills a room)
+                              type: number
+                            perfumers:
+                              type: array
+                              items:
+                                type: string
+                            other_versions:
+                              description: Ids of other concentrations or flankers of the same perfume in the index
+                              type: array
+                              items:
+                                type: string
+                          required:
+                          - id
+                          - name
+                          - house
+                          - gender
+                          - family
+                          - accords
+                          - key_notes
+                          - character
+                          - links
+                          - profile
+                          additionalProperties: false
+                        closeness:
+                          type: string
+                          enum:
+                          - very close
+                          - similar vibe
+                          - same spirit
+                        shared_notes:
+                          type: array
+                          items:
+                            type: string
+                        shared_accords:
+                          type: array
+                          items:
+                            type: string
+                        why:
+                          type: string
+                      required:
+                      - perfume
+                      - closeness
+                      - shared_notes
+                      - shared_accords
+                      - why
+                      additionalProperties: false
+                  unrecognised_notes:
+                    description: Notes that are not in the index vocabulary and were ignored
+                    type: array
+                    items:
+                      type: string
+                  source:
+                    type: string
+                required:
+                - total
+                - target
+                - results
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/alternatives:
+    get:
+      operationId: findPerfumeAlternatives
+      summary: Find alternatives to a perfume from other houses
+      description: 'The editors'' alternatives (dupes) to a famous perfume from other houses: for each, why it is close and how close (very close, similar vibe, same spirit), plus the 10ML guide that compares them. Covers about 100 iconic originals such as Creed Aventus, Baccarat Rouge 540, Delina, Sauvage, Black Opium or Santal 33. For other perfumes in the index the closest options from different houses are computed from notes and accords. Use for ''dupe of X'', ''alternative to X'', ''smells like X but from another house''. Not for general similarity inside the index (use find_similar_perfumes) and not for free-text discovery (use search_perfumes).'
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: perfume
+        in: query
+        required: false
+        description: 'The famous perfume to find alternatives for. Examples: "Creed Aventus", "Baccarat Rouge 540", "Delina"'
+        schema:
+          type: string
+          maxLength: 120
+      - name: house
+        in: query
+        required: false
+        description: House of the original when the name is ambiguous, e.g. "Parfums de Marly"
+        schema:
+          type: string
+          maxLength: 80
+      - name: closeness
+        in: query
+        required: false
+        description: Only alternatives at this closeness
+        schema:
+          type: string
+          enum:
+          - very close
+          - similar vibe
+          - same spirit
+      - name: limit
+        in: query
+        required: false
+        description: How many results per page (1-10, default 6).
+        schema:
+          default: 6
+          type: integer
+          minimum: 1
+          maximum: 10
+      - name: cursor
+        in: query
+        required: false
+        description: next_cursor from the previous page; omit for the first page.
+        schema:
+          type: string
+          maxLength: 64
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total:
+                    type: number
+                    description: How many results matched in all
+                  next_cursor:
+                    description: Pass as cursor to get the next page; absent on the last page
+                    type: string
+                  message:
+                    description: Guidance when the result is empty, partial or needs a follow-up tool
+                    type: string
+                  original:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      house:
+                        type: string
+                      id:
+                        type: string
+                    required:
+                    - name
+                    additionalProperties: false
+                  alternatives:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        house:
+                          type: string
+                        closeness:
+                          type: string
+                          enum:
+                          - very close
+                          - similar vibe
+                          - same spirit
+                        why:
+                          type: string
+                        id:
+                          description: Fragrance Index id when the alternative has its own profile
+                          type: string
+                        source:
+                          type: string
+                          enum:
+                          - editors
+                          - similarity
+                      required:
+                      - name
+                      - closeness
+                      - why
+                      - source
+                      additionalProperties: false
+                  guide:
+                    description: The 10ML guide comparing this perfume with its alternatives
+                    type: object
+                    properties:
+                      type:
+                        type: string
+                        enum:
+                        - try
+                        - guide
+                        - note
+                      title:
+                        type: string
+                      url:
+                        type: string
+                        description: A 10ml.com link in the requested locale
+                    required:
+                    - type
+                    - title
+                    - url
+                    additionalProperties: false
+                  links:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                          enum:
+                          - try
+                          - guide
+                          - note
+                        title:
+                          type: string
+                        url:
+                          type: string
+                          description: A 10ml.com link in the requested locale
+                      required:
+                      - type
+                      - title
+                      - url
+                      additionalProperties: false
+                  other_matches:
+                    description: Other originals the query could also mean
+                    type: array
+                    items:
+                      type: string
+                  source:
+                    type: string
+                required:
+                - total
+                - original
+                - alternatives
+                - links
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/notes/{id}:
+    get:
+      operationId: explainNote
+      summary: Explain a note
+      description: 'Explain a fragrance note: what it smells like, its family and mood, where it comes from, which notes it pairs with, similar notes, famous perfumes where it leads and a link to the 10ML note page or guide when one exists. Covers about 285 notes in many spellings and languages. Use for ''what does ambroxan smell like'', ''what is oud'', ''what goes with bergamot''. Not for listing every perfume with the note (use perfumes_by_note) and not for general terms like EDP or sillage (use explain_perfume_term).'
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: 'The note. Examples: "ambroxan", "oud", "iris", "orris", "Bergamotte"'
+        schema:
+          type: string
+      - name: format
+        in: query
+        required: false
+        description: concise (default) or detailed (adds note pyramid, seasons, occasions, longevity, projection).
+        schema:
+          default: concise
+          type: string
+          enum:
+          - concise
+          - detailed
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  found:
+                    type: boolean
+                  note:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      name:
+                        type: string
+                      family:
+                        type: string
+                      origin:
+                        type: string
+                      smells_like:
+                        type: string
+                      mood:
+                        type: string
+                      description:
+                        type: string
+                      also_called:
+                        type: array
+                        items:
+                          type: string
+                      pairs_with:
+                        type: array
+                        items:
+                          type: string
+                      similar_notes:
+                        type: array
+                        items:
+                          type: string
+                    required:
+                    - id
+                    - name
+                    - family
+                    - origin
+                    - smells_like
+                    - mood
+                    - also_called
+                    - pairs_with
+                    - similar_notes
+                    additionalProperties: false
+                  famous_perfumes:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: Stable Fragrance Index id, usable with get_perfume and find_similar_perfumes
+                        name:
+                          type: string
+                        house:
+                          type: string
+                        year:
+                          description: Launch year when known
+                          type: number
+                        gender:
+                          type: string
+                          enum:
+                          - men
+                          - women
+                          - unisex
+                        family:
+                          type: string
+                          description: Fragrance family, e.g. "amber floral"
+                        accords:
+                          type: array
+                          items:
+                            type: string
+                          description: Main accords, strongest first
+                        key_notes:
+                          type: array
+                          items:
+                            type: string
+                          description: The defining notes (empty when no pyramid is published)
+                        character:
+                          type: string
+                          description: One-sentence description by 10ML's fragrance editors
+                        links:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              type:
+                                type: string
+                                enum:
+                                - try
+                                - guide
+                                - note
+                              title:
+                                type: string
+                              url:
+                                type: string
+                                description: A 10ml.com link in the requested locale
+                            required:
+                            - type
+                            - title
+                            - url
+                            additionalProperties: false
+                          description: 1-3 relevant 10ml.com links
+                        profile:
+                          type: string
+                          enum:
+                          - full
+                          - core
+                        concentration:
+                          type: string
+                        pyramid:
+                          type: object
+                          properties:
+                            top:
+                              type: array
+                              items:
+                                type: string
+                            heart:
+                              type: array
+                              items:
+                                type: string
+                            base:
+                              type: array
+                              items:
+                                type: string
+                          required:
+                          - top
+                          - heart
+                          - base
+                          additionalProperties: false
+                        seasons:
+                          type: array
+                          items:
+                            type: string
+                        occasions:
+                          type: array
+                          items:
+                            type: string
+                        styles:
+                          type: array
+                          items:
+                            type: string
+                        longevity:
+                          description: 1 (short) to 5 (very long)
+                          type: number
+                        projection:
+                          description: 1 (skin scent) to 5 (fills a room)
+                          type: number
+                        perfumers:
+                          type: array
+                          items:
+                            type: string
+                        other_versions:
+                          description: Ids of other concentrations or flankers of the same perfume in the index
+                          type: array
+                          items:
+                            type: string
+                      required:
+                      - id
+                      - name
+                      - house
+                      - gender
+                      - family
+                      - accords
+                      - key_notes
+                      - character
+                      - links
+                      - profile
+                      additionalProperties: false
+                  links:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                          enum:
+                          - try
+                          - guide
+                          - note
+                        title:
+                          type: string
+                        url:
+                          type: string
+                          description: A 10ml.com link in the requested locale
+                      required:
+                      - type
+                      - title
+                      - url
+                      additionalProperties: false
+                  suggestions:
+                    type: array
+                    items:
+                      type: string
+                  message:
+                    type: string
+                  source:
+                    type: string
+                required:
+                - found
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/houses:
+    get:
+      operationId: listHouses
+      summary: List perfume houses
+      description: Browse the perfume houses in the 10ML Fragrance Index with country, type (designer, niche, middle-eastern, indie, celebrity), perfumes profiled and what each is known for. Filter by type, country or a name fragment. Use when someone wants to explore brands, find niche or Middle Eastern houses, or see which houses are covered. Not for one house's full profile (use get_house) and not for perfumes (use search_perfumes).
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: type
+        in: query
+        required: false
+        description: Only houses of this type
+        schema:
+          type: string
+          enum:
+          - designer
+          - niche
+          - middle-eastern
+          - indie
+          - celebrity
+      - name: country
+        in: query
+        required: false
+        description: Only houses from this country, e.g. "France", "Italy", "United Arab Emirates"
+        schema:
+          type: string
+          maxLength: 40
+      - name: query
+        in: query
+        required: false
+        description: Part of a house name, e.g. "tom" or "maison"
+        schema:
+          type: string
+          maxLength: 60
+      - name: limit
+        in: query
+        required: false
+        description: How many results per page (1-50, default 20).
+        schema:
+          default: 20
+          type: integer
+          minimum: 1
+          maximum: 50
+      - name: cursor
+        in: query
+        required: false
+        description: next_cursor from the previous page; omit for the first page.
+        schema:
+          type: string
+          maxLength: 64
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total:
+                    type: number
+                    description: How many results matched in all
+                  next_cursor:
+                    description: Pass as cursor to get the next page; absent on the last page
+                    type: string
+                  message:
+                    description: Guidance when the result is empty, partial or needs a follow-up tool
+                    type: string
+                  houses:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        name:
+                          type: string
+                        country:
+                          type: string
+                        type:
+                          type: string
+                        founded:
+                          type: number
+                        perfumes_in_index:
+                          type: number
+                        known_for:
+                          type: array
+                          items:
+                            type: string
+                      required:
+                      - id
+                      - name
+                      - type
+                      - perfumes_in_index
+                      - known_for
+                      additionalProperties: false
+                  source:
+                    type: string
+                required:
+                - total
+                - houses
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/houses/{id}:
+    get:
+      operationId: getHouse
+      summary: Get one perfume house
+      description: 'Profile of a perfume house: country, founded year, style (designer, niche, Middle Eastern, indie), what it is known for, its signature perfumes in the index and a link to explore it at 10ML. Understands nicknames (YSL, MFK, PDM, Paco Rabanne). Use for ''tell me about Creed'', ''what is Amouage known for'' or ''best Dior perfumes''. Not for browsing all houses (use list_houses) and not for one perfume (use get_perfume).'
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: 'The house. Examples: "Creed", "YSL", "Maison Francis Kurkdjian", "Parfums de Marly"'
+        schema:
+          type: string
+      - name: format
+        in: query
+        required: false
+        description: concise (default) or detailed (adds note pyramid, seasons, occasions, longevity, projection).
+        schema:
+          default: concise
+          type: string
+          enum:
+          - concise
+          - detailed
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  found:
+                    type: boolean
+                  house:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      name:
+                        type: string
+                      country:
+                        type: string
+                      type:
+                        type: string
+                      founded:
+                        type: number
+                      perfumes_in_index:
+                        type: number
+                      known_for:
+                        type: array
+                        items:
+                          type: string
+                      style:
+                        type: string
+                      aliases:
+                        type: array
+                        items:
+                          type: string
+                    required:
+                    - id
+                    - name
+                    - type
+                    - perfumes_in_index
+                    - known_for
+                    - style
+                    - aliases
+                    additionalProperties: false
+                  signature_perfumes:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: Stable Fragrance Index id, usable with get_perfume and find_similar_perfumes
+                        name:
+                          type: string
+                        house:
+                          type: string
+                        year:
+                          description: Launch year when known
+                          type: number
+                        gender:
+                          type: string
+                          enum:
+                          - men
+                          - women
+                          - unisex
+                        family:
+                          type: string
+                          description: Fragrance family, e.g. "amber floral"
+                        accords:
+                          type: array
+                          items:
+                            type: string
+                          description: Main accords, strongest first
+                        key_notes:
+                          type: array
+                          items:
+                            type: string
+                          description: The defining notes (empty when no pyramid is published)
+                        character:
+                          type: string
+                          description: One-sentence description by 10ML's fragrance editors
+                        links:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              type:
+                                type: string
+                                enum:
+                                - try
+                                - guide
+                                - note
+                              title:
+                                type: string
+                              url:
+                                type: string
+                                description: A 10ml.com link in the requested locale
+                            required:
+                            - type
+                            - title
+                            - url
+                            additionalProperties: false
+                          description: 1-3 relevant 10ml.com links
+                        profile:
+                          type: string
+                          enum:
+                          - full
+                          - core
+                        concentration:
+                          type: string
+                        pyramid:
+                          type: object
+                          properties:
+                            top:
+                              type: array
+                              items:
+                                type: string
+                            heart:
+                              type: array
+                              items:
+                                type: string
+                            base:
+                              type: array
+                              items:
+                                type: string
+                          required:
+                          - top
+                          - heart
+                          - base
+                          additionalProperties: false
+                        seasons:
+                          type: array
+                          items:
+                            type: string
+                        occasions:
+                          type: array
+                          items:
+                            type: string
+                        styles:
+                          type: array
+                          items:
+                            type: string
+                        longevity:
+                          description: 1 (short) to 5 (very long)
+                          type: number
+                        projection:
+                          description: 1 (skin scent) to 5 (fills a room)
+                          type: number
+                        perfumers:
+                          type: array
+                          items:
+                            type: string
+                        other_versions:
+                          description: Ids of other concentrations or flankers of the same perfume in the index
+                          type: array
+                          items:
+                            type: string
+                      required:
+                      - id
+                      - name
+                      - house
+                      - gender
+                      - family
+                      - accords
+                      - key_notes
+                      - character
+                      - links
+                      - profile
+                      additionalProperties: false
+                  links:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                          enum:
+                          - try
+                          - guide
+                          - note
+                        title:
+                          type: string
+                        url:
+                          type: string
+                          description: A 10ml.com link in the requested locale
+                      required:
+                      - type
+                      - title
+                      - url
+                      additionalProperties: false
+                  suggestions:
+                    type: array
+                    items:
+                      type: string
+                  message:
+                    type: string
+                  source:
+                    type: string
+                required:
+                - found
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/guides:
+    get:
+      operationId: searchGuides
+      summary: Search 10ML guides
+      description: 'Find 10ML''s perfume guides and articles to read or cite: how-tos (where to spray, finding a signature scent, making perfume last), notes explained, house guides, lists, and alternatives guides that compare famous perfumes with similar ones from other houses. Returns title, type and a link per locale. Use whenever you want a source to cite or a deeper read (''how to layer perfume'', ''best oud perfumes'', ''Creed Aventus dupes guide''). Not for facts about a perfume (use get_perfume) and not for note definitions (use explain_note).'
+      tags:
+      - 10ML Fragrance Index
+      parameters:
+      - name: q
+        in: query
+        required: false
+        description: 'What the guide is about. Examples: "how to make perfume last", "oud", "Creed Aventus dupes", "gift". Omit to browse.'
+        schema:
+          type: string
+          maxLength: 120
+      - name: type
+        in: query
+        required: false
+        description: how-to, list (rankings/comparisons), alternatives (dupes guides), note (a note explained), house (a house mapped)
+        schema:
+          type: string
+          enum:
+          - how-to
+          - list
+          - alternatives
+          - note
+          - house
+      - name: limit
+        in: query
+        required: false
+        description: How many results per page (1-20, default 8).
+        schema:
+          default: 8
+          type: integer
+          minimum: 1
+          maximum: 20
+      - name: cursor
+        in: query
+        required: false
+        description: next_cursor from the previous page; omit for the first page.
+        schema:
+          type: string
+          maxLength: 64
+      - name: locale
+        in: query
+        required: false
+        description: Language of the 10ml.com links and labels. Perfume, house and note names stay as they are.
+        schema:
+          default: en
+          type: string
+          enum:
+          - en
+          - de
+          - fr
+          - es
+          - it
+          - ro
+          - el
+          - hu
+          - cs
+          - pl
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total:
+                    type: number
+                    description: How many results matched in all
+                  next_cursor:
+                    description: Pass as cursor to get the next page; absent on the last page
+                    type: string
+                  message:
+                    description: Guidance when the result is empty, partial or needs a follow-up tool
+                    type: string
+                  guides:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        title:
+                          type: string
+                        type:
+                          type: string
+                        topics:
+                          type: array
+                          items:
+                            type: string
+                        url:
+                          type: string
+                        translated:
+                          type: boolean
+                          description: False when the guide is only available in English (the url is then the English page)
+                      required:
+                      - title
+                      - type
+                      - topics
+                      - url
+                      - translated
+                      additionalProperties: false
+                  source:
+                    type: string
+                required:
+                - total
+                - guides
+                - source
+                additionalProperties: false
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: string
+                      message:
+                        type: string
+        '404':
+          description: 'Not found: the body carries closest suggestions'
+          content:
+            application/json:
+              schema:
+                type: object
