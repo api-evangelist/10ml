@@ -103,7 +103,6 @@ x-submission-notes: Free no-auth perfume knowledge API (notes, accords, houses, 
 x-submission-probe: mcp.10ml.com 200 (Perfume MCP Server page); openapi.json 200 OpenAPI 3.1.0 v2.1.0 42KB; llms.txt 200; 10ml.com 200 retailer;
   soft-404 clean (JSON 404); MCP endpoint /mcp not POSTed (not named by submitter)
 
-x-submitted-by: contact+apisio@10ml.com (submission, 2026-10-19)
 x-enrichment:
   date: '2026-10-20'
   status: enriched
